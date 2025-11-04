@@ -1,3 +1,21 @@
+# A12-AI-Theming
+
+An experiment: Have an AI work on an A12 Theme so it matches a given look & feel, described by one or more screen shots.
+
+The cycle the AI should go thru:
+
+- Compile the code
+- Run the code
+- Make one or more screen shots of the UI
+- Compare it to the given screen shots
+- If it resembles really very well, stop here. Otherwise...
+- Modify the A12 theme file
+- Start over
+
+We will try to provide the means to build, run, screen shot our A12 application by an MCP Server.
+
+
+
 <!--- References --->
 <!--- Project Template getA12 documentation links --->
 [getA12]: https://docs.geta12.com/docs/#content:asciidoc,product:PROJECT_TEMPLATE,artifact:project-template-documentation,scene:Qc5TNM
@@ -33,14 +51,19 @@
 Use this template to quickstart your A12-based project. For more information about the Project Template and how to get started, check out the detailed documentation on [getA12].
 
 ## Content
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Documentation](#documentation)
-- [Quickstart](#quickstart)
+- [A12-AI-Theming](#a12-ai-theming)
+- [Project Template](#project-template)
+  - [Content](#content)
+  - [Introduction](#introduction)
+  - [Prerequisites](#prerequisites)
+  - [Documentation](#documentation)
+  - [Quickstart](#quickstart)
 - [Jenkins Pipelines](#jenkins-pipelines)
-    - [Overview](#overview)
-    - [Pipeline Preparation](#pipeline-preparation)
-    - [Creating Job in Jenkins](#creating-job-in-jenkins)
+  - [Overview](#overview)
+    - [Build Pipeline](#build-pipeline)
+  - [Pipeline Preparation](#pipeline-preparation)
+    - [Settings and Credentials](#settings-and-credentials)
+  - [Creating Job in Jenkins](#creating-job-in-jenkins)
 
 <a name="introduction"></a>
 ## Introduction
