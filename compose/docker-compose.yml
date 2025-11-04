@@ -72,7 +72,7 @@ services:
       test:
         [
           "CMD-SHELL",
-          "pg_isready --username your-ds-username --dbname your-ds-db-name && pg_isready --username your-cs-username --dbname your-cs-db-name",
+          "pg_isready --username ai-theming-ds-user --dbname ai-theming && pg_isready --username ai-theming-cs-username --dbname ai-theming-cs-db-name",
         ]
       interval: 2s
       timeout: 5s

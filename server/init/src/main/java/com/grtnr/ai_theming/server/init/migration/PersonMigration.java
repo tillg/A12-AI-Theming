@@ -1,4 +1,4 @@
-package com.mgmtp.a12.template.server.init.migration;
+package com.grtnr.ai_theming.server.init.migration;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;

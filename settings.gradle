@@ -1,4 +1,4 @@
-rootProject.name = 'your-project-name'
+rootProject.name = 'ai-theming'
 
 include 'client'
 include 'compose'

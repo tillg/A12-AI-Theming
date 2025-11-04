@@ -1,6 +1,6 @@
 {
   "header": {
-    "id": "YourAppModel_AM",
+    "id": "AiTheming_AM",
     "modelType": "application",
     "modelVersion": "6.0.0",
     "locales": [
@@ -14,11 +14,11 @@
     "labels": [
       {
         "locale": "en",
-        "text": "Your-Project-Name"
+        "text": "A12 AI Theming"
       },
       {
         "locale": "de",
-        "text": "Your-Project-Name"
+        "text": "A12 AI Theming"
       }
     ],
     "annotations": [

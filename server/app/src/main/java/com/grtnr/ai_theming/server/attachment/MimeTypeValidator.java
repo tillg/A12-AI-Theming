@@ -1,4 +1,4 @@
-package com.mgmtp.a12.template.server.attachment;
+package com.grtnr.ai_theming.server.attachment;
 
 import com.mgmtp.a12.dataservices.common.exception.InvalidInputException;
 import org.springframework.beans.factory.annotation.Value;
@@ -10,7 +10,7 @@ import static com.mgmtp.a12.dataservices.exception.ExceptionKeys.ATTACHMENT_INVA
 
 @Component
 public class MimeTypeValidator {
-    @Value("${mgmtp.a12.template.server.attachment.allowedMimeTypes:*}")
+    @Value("${ai-theming.server.attachment.allowedMimeTypes:*}")
     private List<String> allowedMimeTypes;
 
     public void validateMimeType(String mimeType) {

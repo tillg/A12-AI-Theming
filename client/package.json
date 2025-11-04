@@ -1,8 +1,8 @@
 {
-  "name": "@com.mgmtp.your-project-name/client",
-  "description": "Your-Project-Name",
+  "name": "@com.grtnr.ai-theming/client",
+  "description": "A12 AI Theming",
   "publishConfig": {
-    "registry": "https://artifacts.mgm-tp.com/artifactory/api/npm/your-project-name-npm-local"
+    "registry": "https://artifacts.mgm-tp.com/artifactory/api/npm/ai-theming-npm-local"
   },
   "author": "mgm technology partners",
   "license": "UNLICENSED",

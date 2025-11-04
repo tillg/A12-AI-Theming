@@ -2,7 +2,7 @@ import { LocalizationKeyTreeType } from "../keys";
 
 export const en_US: LocalizationKeyTreeType = {
     application: {
-        title: "Your-Project-Name",
+        title: "A12 AI Theming",
         header: {
             userinfo: {
                 labels: {

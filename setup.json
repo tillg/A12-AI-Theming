@@ -1,74 +1,74 @@
 {
   "serverPackage": {
-    "current": "com.mgmtp.a12.template.server",
-    "alternative": "com.mgmtp.a12.template.server"
+    "current": "com.grtnr.ai_theming.server",
+    "alternative": "com.grtnr.ai_theming.server"
   },
   "serverApplication": {
-    "current": "ProjectTemplateServerApplication",
-    "alternative": "ProjectTemplateServerApplication"
+    "current": "AiThemingServerApplication",
+    "alternative": "AiThemingServerApplication"
   },
   "initApplication": {
-    "current": "ProjectTemplateInitApplication",
-    "alternative": "ProjectTemplateInitApplication"
+    "current": "AiThemingInitApplication",
+    "alternative": "AiThemingInitApplication"
   },
   "projectProperties": {
-    "current": "mgmtp.a12.template.server",
-    "alternative": "mgmtp.a12.template.server"
+    "current": "ai-theming.server",
+    "alternative": "ai-theming.server"
   },
   "projectGroup": {
-    "current": "com.mgmtp.your-project-name",
-    "alternative": "com.mgmtp.your-project-name"
+    "current": "com.grtnr.ai-theming",
+    "alternative": "com.grtnr.ai-theming"
   },
   "projectName": {
-    "current": "your-project-name",
-    "alternative": "your-project-name"
+    "current": "ai-theming",
+    "alternative": "ai-theming"
   },
   "appModelName": {
-    "current": "YourAppModel_AM",
-    "alternative": "YourAppModel_AM"
+    "current": "AiTheming_AM",
+    "alternative": "AiTheming_AM"
   },
   "title": {
-    "current": "Your-Project-Name",
-    "alternative": "Your-Project-Name"
+    "current": "A12 AI Theming",
+    "alternative": "A12 AI Theming"
   },
   "dsDatabaseName": {
-    "current": "your-ds-db-name",
-    "alternative": "your-ds-db-name"
+    "current": "ai-theming",
+    "alternative": "ai-theming"
   },
   "dsDatabaseUsername": {
-    "current": "your-ds-username",
-    "alternative": "your-ds-username"
+    "current": "ai-theming-ds-user",
+    "alternative": "ai-theming-ds-user"
   },
   "dsDatabasePassword": {
-    "current": "your-ds-password",
-    "alternative": "your-ds-password"
+    "current": "ai-theming-ds-password",
+    "alternative": "ai-theming-ds-password"
   },
   "csDatabaseName": {
-    "current": "your-cs-db-name",
-    "alternative": "your-cs-db-name"
+    "current": "ai-theming-cs-db-name",
+    "alternative": "ai-theming-cs-db-name"
   },
   "csDatabaseUsername": {
-    "current": "your-cs-username",
-    "alternative": "your-cs-username"
+    "current": "ai-theming-cs-username",
+    "alternative": "ai-theming-cs-username"
   },
   "csDatabasePassword": {
-    "current": "your-cs-password",
-    "alternative": "your-cs-password"
+    "current": "ai-theming-cs-password",
+    "alternative": "ai-theming-cs-password"
   },
   "postgresDatabasePassword": {
-    "current": "your-postgres-password",
-    "alternative": "your-postgres-password"
+    "current": "ai-theming-postgres-password",
+    "alternative": "ai-theming-postgres-password"
   },
   "keycloakDatabaseName": {
-    "current": "your-keycloak-db-name",
-    "alternative": "your-keycloak-db-name"
+    "current": "ai-theming-keycloak-db-name",
+    "alternative": "ai-theming-keycloak-db-name"
   },
   "keycloakDatabaseUsername": {
-    "current": "your-keycloak-db-username",
-    "alternative": "your-keycloak-db-username"
+    "current": "ai-theming-keycloak-db-username",
+    "alternative": "ai-theming-keycloak-db-username"
   },
   "keycloakDatabasePassword": {
-    "current": "your-keycloak-db-password",
-    "alternative": "your-keycloak-db-password"
+    "current": "ai-theming-keycloak-db-password",
+    "alternative": "ai-theming-keycloak-db-password"
   }
 }
