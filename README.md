@@ -15,6 +15,71 @@ The cycle the AI should go thru:
 We will try to provide the means to build, run, screen shot our A12 application by an MCP Server.
 
 
+## Manual process
+
+In order to understand what the AI will do, we start by doing it ourselves manually:
+
+### 1. Starting our environment
+
+As we will only modify client side aspects, we run all the backend services in a docker compose, and then build & run the frontend in a different process / terminal:
+
+```bash
+# Start all backend processes
+gradle noClientComposeUp
+```
+
+And in a different terminal:
+
+```bash
+# Start frontend
+cd client
+npm start
+```
+
+We will give our session a name, i.e. the customer name for which we are creating the theme. Let's call it <CUSTOMER> here.
+
+### 2. Make screen shots 
+
+In order to have relevant screens we need to
+
+* Go to login page 
+* Enter credentials - SNAP
+* Click ENTER
+* See the first screen 
+* Select the theme we are working on in the theme selector (<CUSTOMER>)
+* Create a new person with the `+` button
+* Enter random data - SNAP
+* press SAVE
+* We're back at the list - SNAP
+
+### 3. Compare to target screens
+
+Easy for us humans: Put the screen shots and the target screens side by side and look at them...
+
+### 4. Modify theme file
+
+Less easy for us: Go to the file `client/src/themes/<CUSTOMER>`.json and edit stuff and save it.
+
+## MCP server
+
+In order to enable an LLM to run & control the above process, this are the operations oour MCP server should provide:
+
+* `createEnvironment(<CUSTOMER>)` Set up the environment for a new customer, which basically consists of
+  * Start the backen services as docker compose
+  * Copying a starting point of a theme file to `client/src/themes/<CUSTOMER>`
+  * Run `npm start`
+* `getScreenShots()` Create screen shots and add them to a directory that can be accessed by the LLM with a understandable naming convention.
+
+Besides these MCP Server tools, all the LLM needs be able to do is 
+
+* Looking at picture files
+* Edit & save the theme JSON file
+
+These operations can probably be made available with an off-the-shelf MCP server.
+
+---
+Following the original README from the Project Template.
+---
 
 <!--- References --->
 <!--- Project Template getA12 documentation links --->
@@ -52,6 +117,13 @@ Use this template to quickstart your A12-based project. For more information abo
 
 ## Content
 - [A12-AI-Theming](#a12-ai-theming)
+  - [Manual process](#manual-process)
+    - [1. Starting our environment](#1-starting-our-environment)
+    - [2. Make screen shots](#2-make-screen-shots)
+    - [3. Compare to target screens](#3-compare-to-target-screens)
+    - [4. Modify theme file](#4-modify-theme-file)
+  - [MCP server](#mcp-server)
+  - [Following the original README from the Project Template.](#following-the-original-readme-from-the-project-template)
 - [Project Template](#project-template)
   - [Content](#content)
   - [Introduction](#introduction)
