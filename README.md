@@ -14,6 +14,28 @@ The cycle the AI should go thru:
 
 We will try to provide the means to build, run, screen shot our A12 application by an MCP Server.
 
+- [A12-AI-Theming](#a12-ai-theming)
+  - [Manual process](#manual-process)
+    - [1. Starting our environment](#1-starting-our-environment)
+    - [2. Make screen shots](#2-make-screen-shots)
+    - [3. Compare to target screens](#3-compare-to-target-screens)
+    - [4. Modify theme file](#4-modify-theme-file)
+  - [MCP server](#mcp-server)
+    - [Quick Start with MCP Server](#quick-start-with-mcp-server)
+  - [Following the original README from the Project Template.](#following-the-original-readme-from-the-project-template)
+- [Project Template](#project-template)
+  - [Content](#content)
+  - [Introduction](#introduction)
+  - [Prerequisites](#prerequisites)
+  - [Documentation](#documentation)
+  - [Quickstart](#quickstart)
+- [Jenkins Pipelines](#jenkins-pipelines)
+  - [Overview](#overview)
+    - [Build Pipeline](#build-pipeline)
+  - [Pipeline Preparation](#pipeline-preparation)
+    - [Settings and Credentials](#settings-and-credentials)
+  - [Creating Job in Jenkins](#creating-job-in-jenkins)
+
 
 ## Manual process
 
@@ -62,20 +84,40 @@ Less easy for us: Go to the file `client/src/themes/<CUSTOMER>`.json and edit st
 
 ## MCP server
 
-In order to enable an LLM to run & control the above process, this are the operations oour MCP server should provide:
+A Python-based MCP (Model Context Protocol) server has been implemented to automate the theme development workflow. The MCP server provides tools that enable AI assistants like Claude to:
 
-* `createEnvironment(<CUSTOMER>)` Set up the environment for a new customer, which basically consists of
-  * Start the backen services as docker compose
-  * Copying a starting point of a theme file to `client/src/themes/<CUSTOMER>`
-  * Run `npm start`
-* `getScreenShots()` Create screen shots and add them to a directory that can be accessed by the LLM with a understandable naming convention.
+* **`create_environment(customer_name)`** - Set up a complete development environment:
+  * Start backend services (Gradle + Docker Compose)
+  * Copy theme template to `client/src/themes/<CUSTOMER>.json`
+  * Start frontend development server (`npm start`)
+  * Create screenshots directory structure
 
-Besides these MCP Server tools, all the LLM needs be able to do is 
+* **`get_screenshots(customer_name)`** - Capture UI screenshots automatically:
+  * Navigate through login and UI workflow
+  * Apply the customer theme
+  * Capture screenshots at key UI states
+  * Save with organized naming (`ROUNDXX_YY.png`)
 
-* Looking at picture files
-* Edit & save the theme JSON file
+The AI can then:
+* View and compare TARGET screenshots (manual) with ROUND screenshots (automated)
+* Edit the theme JSON file to adjust styling
+* Iterate until the theme matches the target design
 
-These operations can probably be made available with an off-the-shelf MCP server.
+### Quick Start with MCP Server
+
+```bash
+cd mcp-server
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+playwright install chromium
+python src/server.py
+```
+
+For complete documentation, configuration, and usage examples, see:
+* **[mcp-server/README.md](mcp-server/README.md)** - Installation and overview
+* **[mcp-server/USAGE.md](mcp-server/USAGE.md)** - Detailed usage guide with examples
+* **[features/MCP_SERVER.md](features/MCP_SERVER.md)** - Complete implementation plan and architecture
 
 ---
 Following the original README from the Project Template.
@@ -123,6 +165,7 @@ Use this template to quickstart your A12-based project. For more information abo
     - [3. Compare to target screens](#3-compare-to-target-screens)
     - [4. Modify theme file](#4-modify-theme-file)
   - [MCP server](#mcp-server)
+    - [Quick Start with MCP Server](#quick-start-with-mcp-server)
   - [Following the original README from the Project Template.](#following-the-original-readme-from-the-project-template)
 - [Project Template](#project-template)
   - [Content](#content)

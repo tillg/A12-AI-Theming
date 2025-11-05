@@ -80,3 +80,25 @@ coverage/
 *.backup
 temp/
 tmp/
+
+# Python (for mcp-server/)
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Playwright (for mcp-server/)
+.playwright/
+playwright-report/
+test-results/

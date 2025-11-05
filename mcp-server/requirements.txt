@@ -1,0 +1,32 @@
+# MCP SDK for Python
+mcp>=0.1.0
+
+# HTTP/SSE transport support
+starlette>=0.27.0
+uvicorn>=0.23.0
+sse-starlette>=1.6.0
+
+# Browser automation
+playwright>=1.40.0
+
+# Data validation and settings
+pydantic>=2.0.0
+
+# Async file operations
+aiofiles>=23.0.0
+
+# Generate random test data
+faker>=20.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# YAML configuration (optional)
+pyyaml>=6.0
+
+# Testing framework
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# HTTP client for testing
+aiohttp>=3.8.0

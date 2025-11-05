@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "a12-theme": {
+      "command": "python",
+      "args": [
+        "/absolute/path/to/A12-AI-Theming/mcp-server/src/server.py"
+      ],
+      "cwd": "/absolute/path/to/A12-AI-Theming",
+      "env": {
+        "PYTHONPATH": "/absolute/path/to/A12-AI-Theming/mcp-server"
+      }
+    }
+  }
+}
