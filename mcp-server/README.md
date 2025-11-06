@@ -221,7 +221,7 @@ For claude code on the command line:
 
 ```text
 You are a Web Designer in. charge of styling a prototype application so it matches the client's look & feel.
-The client in question is AMAZON.
+The client in question is ADAC.
 
 In order to style the app you are supposed to edit the themes file client/src/themes/<CLIENT>.json. EDIT ONLY THIS FILE!!
 

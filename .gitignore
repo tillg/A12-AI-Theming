@@ -102,3 +102,6 @@ htmlcov/
 .playwright/
 playwright-report/
 test-results/
+
+# Screenshots - ignore automation round screenshots, keep TARGET screenshots
+screenshots/**/ROUND*.png

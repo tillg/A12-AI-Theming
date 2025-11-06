@@ -432,8 +432,12 @@ class BrowserAutomation:
             email = fake.email()
             city = fake.city()
             country = fake.country()
+            # Generate birth date for someone between 18 and 80 years old
+            birth_date = fake.date_of_birth(minimum_age=18, maximum_age=80)
+            # Format as YYYY-MM-DD for HTML date inputs
+            birth_date_str = birth_date.strftime('%Y-%m-%d')
 
-            logger.info(f"Generated test data: {first_name} {last_name}, {email}")
+            logger.info(f"Generated test data: {first_name} {last_name}, {email}, DOB: {birth_date_str}")
 
             # Fill form fields using actual field IDs from the A12 form
             # Fields have IDs like: a12-FirstName-F3, a12-LastName-F4, etc.
@@ -442,6 +446,7 @@ class BrowserAutomation:
                 ('a12-FirstName', first_name),
                 ('a12-LastName', last_name),
                 ('a12-EmailAddress', email),
+                ('a12-DateOfBirth', birth_date_str),  # Birth date in YYYY-MM-DD format
                 ('a12-PlaceOfBirth', city),  # Use city for place of birth
                 ('a12-Nationality', country),
             ]
@@ -462,21 +467,42 @@ class BrowserAutomation:
                     field = await self.page.query_selector(selector)
 
                     if field and await field.is_visible():
+                        # Check if it's a date field
+                        field_type = await field.get_attribute('type')
+                        is_date_field = 'DateOfBirth' in field_pattern or field_type == 'date'
+
                         # Click field first to ensure it's focused (important for React forms)
                         await field.click()
-                        await self.page.wait_for_timeout(100)
+                        await self.page.wait_for_timeout(200)
 
-                        # Clear any existing value
-                        await field.fill('')
-                        await self.page.wait_for_timeout(100)
+                        if is_date_field:
+                            # For date fields, use keyboard input which is more reliable
+                            # Clear field first using triple-click to select all
+                            await field.click(click_count=3)
+                            await self.page.wait_for_timeout(100)
+                            await field.press('Backspace')
+                            await self.page.wait_for_timeout(150)
 
-                        # Fill with new value
-                        await field.fill(value)
-                        await self.page.wait_for_timeout(100)
+                            # Type the date value character by character
+                            await field.type(value, delay=50)
+                            await self.page.wait_for_timeout(200)
+
+                            # Press Tab to trigger validation/blur
+                            await field.press('Tab')
+                            await self.page.wait_for_timeout(100)
+                        else:
+                            # For regular fields, use fill method
+                            # Clear any existing value
+                            await field.fill('')
+                            await self.page.wait_for_timeout(100)
+
+                            # Fill with new value
+                            await field.fill(value)
+                            await self.page.wait_for_timeout(100)
 
                         # Verify the value was set
                         actual_value = await field.input_value()
-                        if actual_value == value:
+                        if actual_value == value or (is_date_field and actual_value):
                             logger.info(f"Filled {field_pattern}: {value}")
                             filled_count += 1
                         else:
@@ -485,7 +511,7 @@ class BrowserAutomation:
                         logger.debug(f"Could not find field: {field_pattern}")
 
                 except Exception as e:
-                    logger.debug(f"Error filling {field_pattern}: {e}")
+                    logger.warning(f"Error filling {field_pattern}: {e}")
                     continue
 
             logger.info(f"Filled {filled_count}/{len(fields_to_fill)} fields")
@@ -633,9 +659,9 @@ class BrowserAutomation:
                 return False, screenshots
 
             # Screenshot 1: Login page
-            screenshot_path = customer_dir / f"ROUND{round_number:02d}_01.png"
-            if await self.capture_screenshot(screenshot_path):
-                screenshots.append(str(screenshot_path))
+            # screenshot_path = customer_dir / f"ROUND{round_number:02d}_01.png"
+            # if await self.capture_screenshot(screenshot_path):
+            #     screenshots.append(str(screenshot_path))
 
             # Step 2: Login
             login_success = await self.login()
@@ -645,10 +671,10 @@ class BrowserAutomation:
             await self.page.wait_for_timeout(1000)
 
             # Take screenshot after login regardless of success
-            logger.info("Taking screenshot after login...")
-            screenshot_path = customer_dir / f"ROUND{round_number:02d}_02.png"
-            if await self.capture_screenshot(screenshot_path):
-                screenshots.append(str(screenshot_path))
+            # logger.info("Taking screenshot after login...")
+            # screenshot_path = customer_dir / f"ROUND{round_number:02d}_02.png"
+            # if await self.capture_screenshot(screenshot_path):
+            #     screenshots.append(str(screenshot_path))
 
             if not login_success:
                 logger.error("Login failed, but continuing to capture what we can...")

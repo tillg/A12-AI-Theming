@@ -297,6 +297,7 @@
         "position": "relative"
       },
       "header": {
+        "background": "#232F3E",
         "boxShadow": "0 1px 2px 0 rgba(22,25,29,0.4)",
         "minHeight": "48px"
       },
@@ -4412,7 +4413,7 @@
     },
     "tabPanel": {
       "tabs": {
-        "background": "#596673",
+        "background": "#232F3E",
         "minWidth": "52px",
         "minHeight": "52px",
         "padding": "48px 0 0",
@@ -4468,11 +4469,11 @@
           "hoverBackground": "rgba(0, 0, 0, 0.3)"
         }
       },
-      "background": "#596673",
-      "contentBorder": "8px solid #2c333a",
+      "background": "#232F3E",
+      "contentBorder": "8px solid #232F3E",
       "header": {
         "addonGap": "0 8px",
-        "background": "#2c333a",
+        "background": "#232F3E",
         "minHeight": "48px",
         "padding": "0 8px",
         "buttonColor": "#fff",
