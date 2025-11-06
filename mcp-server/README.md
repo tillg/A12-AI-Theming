@@ -13,6 +13,7 @@ An MCP (Model Context Protocol) server that automates theme development workflow
     - [Troubleshooting](#troubleshooting)
     - [Stopping Services](#stopping-services)
   - [Usage with Claude Code](#usage-with-claude-code)
+  - [Prompt](#prompt)
   - [Screenshot Directory Structure](#screenshot-directory-structure)
   - [Development](#development)
     - [Project Structure](#project-structure)
@@ -132,12 +133,12 @@ The server communicates via stdio and is designed to be used with MCP clients li
 In the Inspector UI, manually configure:
 
 - **Transport Type**: `STDIO`
-- **Command**: `/Users/yourname/git/A12-AI-Theming/mcp-server/.venv/bin/python`
+- **Command**: `/Users/tgartner/git/A12-AI-Theming/mcp-server/.venv/bin/python`
   (Use your actual path!)
-- **Arguments**: `/Users/yourname/git/A12-AI-Theming/mcp-server/src/server.py`
+- **Arguments**: `/Users/tgartner/git/A12-AI-Theming/mcp-server/src/server.py`
 
 **Environment Variables** (click to expand):
-- `PYTHONPATH` = `/Users/yourname/git/A12-AI-Theming/mcp-server/src` (required)
+- `PYTHONPATH` = `/Users/tgartner/git/A12-AI-Theming/mcp-server/src` (required)
 - `HEADLESS` = `true` (optional, to hide browser for faster execution - default is visible)
 - `SLOW_MO` = `50` (optional, milliseconds to slow down actions)
 
@@ -208,6 +209,76 @@ Add this server to your Claude Code MCP configuration:
     }
   }
 }
+```
+
+For claude code on the command line:
+
+```bash
+    claude mcp add  --transport stdio a12-theme /Users/tgartner/git/A12-AI-Theming/mcp-server/.venv/bin/python  /Users/tgartner/git/A12-AI-Theming/mcp-server/src/server.py --scope local
+```
+
+## Prompt
+
+```text
+You are a Web Designer in. charge of styling a prototype application so it matches the client's look & feel.
+The client in question is AMAZON.
+
+In order to style the app you are supposed to edit the themes file client/src/themes/<CLIENT>.json. EDIT ONLY THIS FILE!!
+
+Your work environment is already up & running.
+
+Your work process looks the following:
+- Execute the get_screenshots tool for your client withe the a12-theme mcp server. Wait 30 seconds so the screenshots can be made.
+- Go in the directors screenshots/<CLIENT> and look at the screenshot files: TARGET_XX.png is the design we want to achieve, ROUNDYY_XX.png are the screenshots of the different rounds that you made. 
+- Compare the images and think of how you want to change the theme file <CLIENT>.json. 
+- Edit <CLIENT>.json
+- This triggers a build process. Wait 10 seconds, so the build process finishes.
+- Then start over this process.
+
+Make sure you look at all the aspects:
+- The colors
+- The fonts
+- The spacing
+- The lines
+
+Besides the look & feel of the CLIENT design you also have to keep the design usable: text must be legible, contrasts must be high enough.
+
+Make as many rounds as you think are helpful. Stop latest after 10 rounds. 
+
+Here's an extract from the webpage that explains our theming system: 
+Theming
+The theme specifies color of the components, darkness of the surfaces, level of shadow, appropriate opacity of ink elements, etc.
+
+Themes let you apply a consistent tone to your app. It allows you to customize all design aspects of your project in order to meet the specific needs of your business or brand.
+
+You can check the difference between the themes by toggling the "Theme Selector" button positioned on the top-right of our Showcase.
+
+Theme variables
+The base Widgets theme includes the following themable aspects:
+
+.colors
+This property defines the color palette of the Theme object.
+
+.typography
+This property defines the variables related to the Font of the Theme object, including Font Family, Font Size and Font Weight.
+
+.spacing
+This property defines the variables related to the Spacing of the Theme object.
+
+.applicationStyles
+This property defines the variables related to the overall styles of the Theme object, including shared input styles, label styles, and responsive breakpoints.
+
+.focusStyles
+This property defines the variables related to the focus styles of the Theme object.
+
+.divisionLineStyles
+This property defines the variables related to the styles of the dividers of the Theme object, including bottomLine, initialLine, topLine and lineHeight.
+
+.baseInputStyles
+This property defines the variables related to the Box-Shadow and Line Height styles of the input components inside the Theme object.
+
+.components
+This property defines the styling variables related to each of the Widget's component. Each of our Component showcase includes a Theme Configuration section for you to take a deeper look on each component's styling configuration values.
 ```
 
 ## Screenshot Directory Structure

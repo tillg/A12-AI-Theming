@@ -73,40 +73,34 @@ async def create_environment_handler(input_data):
     from services.browser_automation import BrowserAutomation
 
     try:
+        # 1. Create theme file (always, even if environment is running)
+        logger.info("Ensuring theme file exists...")
+        theme_path_obj = ThemeManager.create_theme_file(customer_name)
+        theme_path = str(theme_path_obj)
+        logger.info(f"Theme file at: {theme_path}")
+
+        # 2. Create screenshots directory (always, even if environment is running)
+        logger.info("Ensuring screenshots directory exists...")
+        screenshots_path = SCREENSHOTS_DIR / customer_name
+        screenshots_path.mkdir(parents=True, exist_ok=True)
+        screenshots_dir = str(screenshots_path)
+        logger.info(f"Screenshots directory at: {screenshots_dir}")
+
+        # 3. Initialize round counter
+        current_round = BrowserAutomation.get_next_round_number(screenshots_path)
+        logger.info(f"Current round: {current_round}")
+
         # Check if environment is already running
         if await ProcessManager.is_environment_running():
             logger.warning("Environment is already running")
-            # Return current state
-            theme_path = str(ThemeManager.get_theme_path(customer_name))
-            screenshots_dir = str(SCREENSHOTS_DIR / customer_name)
-            screenshots_path = SCREENSHOTS_DIR / customer_name
-            current_round = BrowserAutomation.get_next_round_number(screenshots_path)
-
             return CreateEnvironmentOutput(
                 success=True,
                 theme_path=theme_path,
                 screenshots_dir=screenshots_dir,
                 current_round=current_round,
                 frontend_url=FRONTEND_URL,
-                message=f"Environment already running for {customer_name}"
+                message=f"Environment already running for {customer_name}. Theme file and screenshots directory verified."
             )
-
-        # 1. Create theme file
-        logger.info("Creating theme file...")
-        theme_path_obj = ThemeManager.create_theme_file(customer_name)
-        theme_path = str(theme_path_obj)
-        logger.info(f"Theme file created at: {theme_path}")
-
-        # 2. Create screenshots directory
-        logger.info("Creating screenshots directory...")
-        screenshots_path = SCREENSHOTS_DIR / customer_name
-        screenshots_path.mkdir(parents=True, exist_ok=True)
-        screenshots_dir = str(screenshots_path)
-        logger.info(f"Screenshots directory created at: {screenshots_dir}")
-
-        # 3. Initialize round counter
-        current_round = BrowserAutomation.get_next_round_number(screenshots_path)
-        logger.info(f"Current round: {current_round}")
 
         # 4. Start backend services (async, don't wait for full startup)
         logger.info("Starting backend services...")

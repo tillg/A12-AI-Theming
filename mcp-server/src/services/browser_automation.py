@@ -421,6 +421,11 @@ class BrowserAutomation:
         try:
             logger.info("Filling person form with random data...")
 
+            # Wait for React form to fully initialize and be ready for interaction
+            # This is critical when running in MCP server context vs manual script
+            logger.info("Waiting for form to be fully initialized...")
+            await self.page.wait_for_timeout(2000)
+
             # Generate random data
             first_name = fake.first_name()
             last_name = fake.last_name()
@@ -445,12 +450,37 @@ class BrowserAutomation:
             for field_pattern, value in fields_to_fill:
                 try:
                     # Find input that has ID containing the pattern
-                    field = await self.page.query_selector(f'input[id^="{field_pattern}"]')
+                    selector = f'input[id^="{field_pattern}"]'
+
+                    # Wait for field to be present and visible (with retry)
+                    try:
+                        await self.page.wait_for_selector(selector, state="visible", timeout=5000)
+                    except PlaywrightTimeoutError:
+                        logger.warning(f"Field not found after timeout: {field_pattern}")
+                        continue
+
+                    field = await self.page.query_selector(selector)
 
                     if field and await field.is_visible():
+                        # Click field first to ensure it's focused (important for React forms)
+                        await field.click()
+                        await self.page.wait_for_timeout(100)
+
+                        # Clear any existing value
+                        await field.fill('')
+                        await self.page.wait_for_timeout(100)
+
+                        # Fill with new value
                         await field.fill(value)
-                        logger.info(f"Filled {field_pattern}: {value}")
-                        filled_count += 1
+                        await self.page.wait_for_timeout(100)
+
+                        # Verify the value was set
+                        actual_value = await field.input_value()
+                        if actual_value == value:
+                            logger.info(f"Filled {field_pattern}: {value}")
+                            filled_count += 1
+                        else:
+                            logger.warning(f"Field {field_pattern} value mismatch: expected '{value}', got '{actual_value}'")
                     else:
                         logger.debug(f"Could not find field: {field_pattern}")
 
@@ -459,6 +489,10 @@ class BrowserAutomation:
                     continue
 
             logger.info(f"Filled {filled_count}/{len(fields_to_fill)} fields")
+
+            if filled_count == 0:
+                logger.error("No fields were filled! Form may not be ready.")
+                return False
 
             logger.info("Person form filled with test data")
             return True
