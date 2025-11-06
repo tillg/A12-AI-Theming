@@ -23,7 +23,6 @@ An MCP (Model Context Protocol) server that automates theme development workflow
     - [Port Conflicts](#port-conflicts)
     - [Frontend Startup Timeout](#frontend-startup-timeout)
     - [Browser Issues](#browser-issues)
-  - [License](#license)
 
 ## Features
 
@@ -211,7 +210,7 @@ Add this server to your Claude Code MCP configuration:
 }
 ```
 
-For claude code on the command line:
+For claude code on the command line to add the MCP server:
 
 ```bash
     claude mcp add  --transport stdio a12-theme /Users/tgartner/git/A12-AI-Theming/mcp-server/.venv/bin/python  /Users/tgartner/git/A12-AI-Theming/mcp-server/src/server.py --scope local
@@ -220,8 +219,8 @@ For claude code on the command line:
 ## Prompt
 
 ```text
-You are a Web Designer in. charge of styling a prototype application so it matches the client's look & feel.
-The client in question is ADAC.
+You are a Web Designer in charge of styling a prototype application so it matches the client's look & feel.
+The client in question is REDBULL.
 
 In order to style the app you are supposed to edit the themes file client/src/themes/<CLIENT>.json. EDIT ONLY THIS FILE!!
 
@@ -229,7 +228,7 @@ Your work environment is already up & running.
 
 Your work process looks the following:
 - Execute the get_screenshots tool for your client withe the a12-theme mcp server. Wait 30 seconds so the screenshots can be made.
-- Go in the directors screenshots/<CLIENT> and look at the screenshot files: TARGET_XX.png is the design we want to achieve, ROUNDYY_XX.png are the screenshots of the different rounds that you made. 
+- Go in the screenshots/<CLIENT> and look at the screenshot files: TARGET_XX.png is the design we want to achieve, ROUNDYY_XX.png are the screenshots of the different rounds that you made. 
 - Compare the images and think of how you want to change the theme file <CLIENT>.json. 
 - Edit <CLIENT>.json
 - This triggers a build process. Wait 10 seconds, so the build process finishes.
@@ -239,6 +238,7 @@ Make sure you look at all the aspects:
 - The colors
 - The fonts
 - The spacing
+- Color & shape of buttons, of text fields...
 - The lines
 
 Besides the look & feel of the CLIENT design you also have to keep the design usable: text must be legible, contrasts must be high enough.
@@ -280,6 +280,14 @@ This property defines the variables related to the Box-Shadow and Line Height st
 .components
 This property defines the styling variables related to each of the Widget's component. Each of our Component showcase includes a Theme Configuration section for you to take a deeper look on each component's styling configuration values.
 ```
+
+Before launching a Theming run, it makes sense to `Shift + Tab` so the auto-accept mode is switched on. Also I have better experience with switching model like so:
+
+```bash
+\model sonnet[1m]
+```
+
+Besides selecting Sonnet as model, it also extends the Token Window to 1 million.
 
 ## Screenshot Directory Structure
 
@@ -366,7 +374,3 @@ If browser automation fails:
 - Check that Playwright browsers are installed: `playwright install chromium`
 - Try with `HEADLESS=false` to debug visually
 - Check browser console logs
-
-## License
-
-See main project LICENSE file.

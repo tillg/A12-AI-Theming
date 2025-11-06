@@ -1,7 +1,7 @@
 {
   "colors": {
-    "primaryColor": "#0050AA",
-    "secondaryColor": "#003A80",
+    "primaryColor": "#003A80",
+    "secondaryColor": "#002F6C",
     "text": {
       "color": "#4d4d4d",
       "secondaryColor": "#e2e6e9",
@@ -25,12 +25,12 @@
       "colorSubtle": "#D3D6DC"
     },
     "interaction": {
-      "primaryInteractionColor": "#0050AA",
+      "primaryInteractionColor": "#003A80",
       "secondaryInteractionColor": "#FFCC00",
       "active": {
         "color": "#E30613",
         "colorLight": "#FF8080",
-        "colorTouch": "#0050AA",
+        "colorTouch": "#003A80",
         "colorTouchInverted": "#fff"
       },
       "disabled": {
@@ -39,10 +39,10 @@
         "colorLight": "#f1f2f4"
       },
       "draggable": {
-        "color": "#0050AA"
+        "color": "#003A80"
       },
       "focus": {
-        "color": "#0050AA",
+        "color": "#003A80",
         "colorInverted": "#fff",
         "outline": "#003A80"
       },
@@ -51,7 +51,7 @@
         "colorInverted": "#fff"
       },
       "selected": {
-        "color": "#0050AA",
+        "color": "#003A80",
         "colorLight": "#E6F0FF",
         "colorInverted": "#fff",
         "colorDark": "#003A80"
@@ -65,13 +65,13 @@
       "errorColor": "#E30613",
       "errorColorDark": "#C00000",
       "errorColorLight": "#FFE6E6",
-      "constructiveColor": "#0050AA",
+      "constructiveColor": "#003A80",
       "destructiveColor": "#E30613",
-      "infoColor": "#0050AA",
+      "infoColor": "#003A80",
       "infoColorDark": "#003A80",
       "infoColorLight": "#E6F0FF",
       "infoColorLighter": "#F0F5FF",
-      "successColor": "#0050AA",
+      "successColor": "#003A80",
       "successColorDark": "#003A80",
       "successColorLight": "#E6F0FF",
       "warningColor": "#FFCC00",
@@ -90,7 +90,7 @@
     "boxShadowBackground": "#16191d",
     "highlightColor": "#FFCC00",
     "highlight": {
-      "greenColor": "#0050AA",
+      "greenColor": "#003A80",
       "greenBackgroundLighter": "#F0F5FF",
       "greenBackgroundLight": "#E6F0FF"
     },
@@ -189,19 +189,19 @@
     },
     "paragraphMargin": "1rem 0",
     "input": {
-      "activeBoxShadow": "0 2px 0 0 #0050AA",
+      "activeBoxShadow": "0 2px 0 0 #003A80",
       "background": "#f1f2f4",
       "borderRadius": 0,
       "boxShadow": "0 1px 0 0 #003A80",
       "defaultBorder": "0 1px 0 0",
       "focusBorder": "0 2px 0 0",
-      "focusBoxShadow": "0 2px 0 0 #0050AA",
+      "focusBoxShadow": "0 2px 0 0 #003A80",
       "fontColor": "#4d4d4d",
       "fontFamily": "\"Open Sans\", sans-serif",
       "fontSize": "0.75rem",
       "fontWeight": 400,
       "hoverBorder": "0 2px 0 0",
-      "hoverBoxShadow": "0 2px 0 0 #0050AA",
+      "hoverBoxShadow": "0 2px 0 0 #003A80",
       "lineHeight": 1.45,
       "height": "32px"
     },
@@ -247,36 +247,36 @@
       },
       "summary": {
         "active": {
-          "border": "2px solid #0050AA"
+          "border": "2px solid #003A80"
         },
         "border": "1px solid #e2e6e9",
         "borderRadius": "0",
         "focus": {
-          "border": "2px solid #0050AA",
+          "border": "2px solid #003A80",
           "outline": "1px dotted #333"
         },
         "hover": {
-          "border": "2px solid #0050AA"
+          "border": "2px solid #003A80"
         },
         "minHeight": "48px",
         "padding": "8px 2px 8px 24px",
         "selected": {
           "background": "#f5fbff",
           "borderLeft": {
-            "active": "4px solid #0050AA",
-            "focus": "4px solid #0050AA",
-            "hover": "4px solid #0050AA",
-            "nonActive": "4px solid #0050AA"
+            "active": "4px solid #003A80",
+            "focus": "4px solid #003A80",
+            "hover": "4px solid #003A80",
+            "nonActive": "4px solid #003A80"
           },
           "color": "#4d4d4d"
         },
         "icon": {
           "variant": {
             "open": "#4d4d4d",
-            "info": "#0050AA",
+            "info": "#003A80",
             "error": "#E30613",
             "warning": "#CCA300",
-            "done": "#0050AA"
+            "done": "#003A80"
           }
         }
       },
@@ -301,7 +301,7 @@
         "minHeight": "48px"
       },
       "sidebar": {
-        "background": "#0050AA",
+        "background": "#003A80",
         "boxShadow": "0 1px 4px 0 rgba(22,25,29,0.4)",
         "containerBackground": "#fff",
         "containerBorderRight": "none",
@@ -324,7 +324,7 @@
         "height": "52px",
         "iconPadding": "4px 4px",
         "mobile": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "bottom": "24px",
           "boxShadow": "0 1px 2px 0 rgba(22,25,29,0.4)",
           "color": "#fff",
@@ -334,15 +334,15 @@
           "interaction": {
             "active": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "borderColor": "#0050AA",
-              "color": "#0050AA"
+              "border": "2px solid #003A80",
+              "borderColor": "#003A80",
+              "color": "#003A80"
             },
             "focus": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "borderColor": "#0050AA",
-              "color": "#0050AA",
+              "border": "2px solid #003A80",
+              "borderColor": "#003A80",
+              "color": "#003A80",
               "outline": "1px dotted #fff"
             }
           }
@@ -350,20 +350,20 @@
         "interaction": {
           "active": {
             "background": "transparent",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "color": "#fff"
           },
           "focus": {
             "background": "transparent",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "color": "#fff",
             "outline": "1px dotted #fff"
           },
           "hover": {
             "background": "transparent",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "color": "#fff"
           }
@@ -371,7 +371,7 @@
       }
     },
     "applicationHeader": {
-      "backgroundColor": "#0050AA",
+      "backgroundColor": "#003A80",
       "borderBottom": "1px solid rgba(22,25,29,0.22)",
       "borderTop": "1px solid transparent",
       "fontFamily": "\"Open Sans\", sans-serif",
@@ -411,10 +411,10 @@
       "transition": "transform .25s ease-in-out",
       "background": {
         "error": "#E30613",
-        "info": "#0050AA",
-        "success": "#0050AA",
+        "info": "#003A80",
+        "success": "#003A80",
         "warning": "#CCA300",
-        "light": "#0050AA"
+        "light": "#003A80"
       }
     },
     "baseInput": {
@@ -457,10 +457,10 @@
         "error": {
           "activeBoxShadow": "0 1px 0 0 #E30613",
           "boxShadow": "0 1px 0 0 #E30613",
-          "focusBoxShadow": "0 2px 0 0 #0050AA",
-          "hoverBoxShadow": "0 2px 0 0 #0050AA"
+          "focusBoxShadow": "0 2px 0 0 #003A80",
+          "hoverBoxShadow": "0 2px 0 0 #003A80"
         },
-        "focusBoxShadow": "0 2px 0 0 #0050AA",
+        "focusBoxShadow": "0 2px 0 0 #003A80",
         "height": "32px",
         "helperText": {
           "color": "#616f7c",
@@ -471,10 +471,10 @@
         },
         "horizontalSpacing": "12px",
         "info": {
-          "activeBoxShadow": "0 1px 0 0 #0050AA",
-          "boxShadow": "0 1px 0 0 #0050AA",
-          "focusBoxShadow": "0 2px 0 0 #0050AA",
-          "hoverBoxShadow": "0 2px 0 0 #0050AA"
+          "activeBoxShadow": "0 1px 0 0 #003A80",
+          "boxShadow": "0 1px 0 0 #003A80",
+          "focusBoxShadow": "0 2px 0 0 #003A80",
+          "hoverBoxShadow": "0 2px 0 0 #003A80"
         },
         "invalidBoxShadow": "0 1px 0 0 #E30613",
         "labelMargin": "0 0 4px 0",
@@ -492,10 +492,10 @@
         },
         "tooltipInNewLineMargin": "0 4px 4px 0",
         "warning": {
-          "activeBoxShadow": "0 2px 0 0 #0050AA",
+          "activeBoxShadow": "0 2px 0 0 #003A80",
           "boxShadow": "0 1px 0 0 #CCA300",
-          "focusBoxShadow": "0 2px 0 0 #0050AA",
-          "hoverBoxShadow": "0 2px 0 0 #0050AA"
+          "focusBoxShadow": "0 2px 0 0 #003A80",
+          "hoverBoxShadow": "0 2px 0 0 #003A80"
         }
       },
       "message": {
@@ -511,8 +511,8 @@
         "iconMarginRight": "4px",
         "info": {
           "background": "#e6f4fe",
-          "color": "#0050AA",
-          "iconColor": "#0050AA"
+          "color": "#003A80",
+          "iconColor": "#003A80"
         },
         "textListPaddingLeft": "16px",
         "padding": "4px 8px",
@@ -576,26 +576,26 @@
           "color": "#fff",
           "interaction": {
             "active": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#C00000",
+              "color": "#fff",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             },
             "focus": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#C00000",
+              "color": "#fff",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             },
             "hover": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#C00000",
+              "color": "#fff",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             }
           }
         },
-        "background": "#0050AA",
+        "background": "#003A80",
         "borderRadius": "2px",
         "boxShadow": "0 1px 2px 0 #16191d66",
         "color": "#fff",
@@ -604,21 +604,21 @@
           "color": "#fff",
           "interaction": {
             "active": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#C00000",
+              "color": "#fff",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             },
             "focus": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#C00000",
+              "color": "#fff",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             },
             "hover": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#C00000",
+              "color": "#fff",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             }
           }
@@ -630,22 +630,22 @@
         },
         "interaction": {
           "active": {
-            "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA",
+            "background": "#002F6C",
+            "color": "#fff",
+            "border": "2px solid transparent",
             "textDecoration": "none"
           },
           "focus": {
-            "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA",
+            "background": "#002F6C",
+            "color": "#fff",
+            "border": "2px solid transparent",
             "outline": "1px dotted #333",
             "textDecoration": "none"
           },
           "hover": {
-            "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA",
+            "background": "#002F6C",
+            "color": "#fff",
+            "border": "2px solid transparent",
             "textDecoration": "none"
           }
         },
@@ -689,21 +689,21 @@
           "color": "#E30613",
           "interaction": {
             "active": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#FFE6E6",
+              "color": "#E30613",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             },
             "focus": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#FFE6E6",
+              "color": "#E30613",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             },
             "hover": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#FFE6E6",
+              "color": "#E30613",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             }
           }
@@ -711,27 +711,27 @@
         "background": "transparent",
         "border": "2px solid transparent",
         "borderRadius": "0",
-        "color": "#0050AA",
+        "color": "#003A80",
         "destructive": {
           "background": "transparent",
           "color": "#E30613",
           "interaction": {
             "active": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#FFE6E6",
+              "color": "#E30613",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             },
             "focus": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#FFE6E6",
+              "color": "#E30613",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             },
             "hover": {
-              "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA",
+              "background": "#FFE6E6",
+              "color": "#E30613",
+              "border": "2px solid transparent",
               "textDecoration": "none"
             }
           }
@@ -744,22 +744,22 @@
         },
         "interaction": {
           "active": {
-            "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA",
+            "background": "#E6F0FF",
+            "color": "#003A80",
+            "border": "2px solid transparent",
             "textDecoration": "none"
           },
           "focus": {
-            "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA",
+            "background": "#E6F0FF",
+            "color": "#003A80",
+            "border": "2px solid transparent",
             "outline": "1px dotted #333",
             "textDecoration": "none"
           },
           "hover": {
-            "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA",
+            "background": "#E6F0FF",
+            "color": "#003A80",
+            "border": "2px solid transparent",
             "textDecoration": "none"
           }
         },
@@ -806,42 +806,42 @@
           "interaction": {
             "active": {
               "background": "transparent",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#FFCC00",
+              "border": "2px solid #FFCC00"
             },
             "focus": {
               "background": "transparent",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#FFCC00",
+              "border": "2px solid #FFCC00"
             },
             "hover": {
               "background": "transparent",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#FFCC00",
+              "border": "2px solid #FFCC00"
             }
           }
         },
         "background": "transparent",
         "borderRadius": "50%",
-        "color": "#0050AA",
+        "color": "#FFCC00",
         "destructive": {
           "background": "transparent",
           "color": "#E30613",
           "interaction": {
             "active": {
               "background": "transparent",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#C00000",
+              "border": "2px solid #C00000"
             },
             "focus": {
               "background": "transparent",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#C00000",
+              "border": "2px solid #C00000"
             },
             "hover": {
               "background": "transparent",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#C00000",
+              "border": "2px solid #C00000"
             }
           }
         },
@@ -854,19 +854,19 @@
         "interaction": {
           "active": {
             "background": "transparent",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#CCA300",
+            "border": "2px solid #CCA300"
           },
           "focus": {
             "background": "transparent",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA",
+            "color": "#CCA300",
+            "border": "2px solid #CCA300",
             "outline": "1px dotted #333"
           },
           "hover": {
             "background": "transparent",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#CCA300",
+            "border": "2px solid #CCA300"
           }
         },
         "size": "32px"
@@ -878,42 +878,42 @@
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
         "background": "transparent",
         "borderRadius": "2px",
-        "color": "#0050AA",
+        "color": "#003A80",
         "destructive": {
           "background": "transparent",
           "color": "#E30613",
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
@@ -929,19 +929,19 @@
         "interaction": {
           "active": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           },
           "focus": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA",
+            "color": "#003A80",
+            "border": "2px solid #003A80",
             "outline": "1px dotted #333"
           },
           "hover": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           }
         }
       },
@@ -952,22 +952,22 @@
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
-        "background": "#0050AA",
+        "background": "#003A80",
         "boxShadow": "0 1px 2px 0 #16191d66",
         "color": "#fff",
         "destructive": {
@@ -976,18 +976,18 @@
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
@@ -999,18 +999,18 @@
         "interaction": {
           "active": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           },
           "focus": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           },
           "hover": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           }
         }
       },
@@ -1021,43 +1021,43 @@
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
         "background": "transparent",
         "border": "2px solid #e2e6e9",
         "boxShadow": "none",
-        "color": "#0050AA",
+        "color": "#003A80",
         "destructive": {
           "background": "transparent",
           "color": "#E30613",
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
@@ -1070,18 +1070,18 @@
         "interaction": {
           "active": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           },
           "focus": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           },
           "hover": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           }
         }
       },
@@ -1094,19 +1094,19 @@
             "active": {
               "background": "rgba(0,0,0,0.2)",
               "color": "#fff",
-              "border": "2px solid #0050AA",
+              "border": "2px solid #003A80",
               "borderColor": "#fff"
             },
             "hover": {
               "background": "rgba(0,0,0,0.2)",
               "color": "#fff",
-              "border": "2px solid #0050AA",
+              "border": "2px solid #003A80",
               "borderColor": "#fff"
             },
             "focus": {
               "background": "rgba(0,0,0,0.2)",
               "color": "#fff",
-              "border": "2px solid #0050AA",
+              "border": "2px solid #003A80",
               "borderColor": "#fff",
               "outline": "1px dotted #fff"
             }
@@ -1124,19 +1124,19 @@
           "active": {
             "background": "rgba(0,0,0,0.2)",
             "color": "#fff",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff"
           },
           "hover": {
             "background": "rgba(0,0,0,0.2)",
             "color": "#fff",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff"
           },
           "focus": {
             "background": "rgba(0,0,0,0.2)",
             "color": "#fff",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "outline": "1px dotted #fff"
           }
@@ -1149,22 +1149,22 @@
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
-        "background": "#0050AA",
+        "background": "#003A80",
         "borderRadius": "50%",
         "boxShadow": "none",
         "color": "#fff",
@@ -1174,18 +1174,18 @@
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
@@ -1197,18 +1197,18 @@
         "interaction": {
           "active": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           },
           "focus": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           },
           "hover": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           }
         }
       },
@@ -1219,18 +1219,18 @@
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
@@ -1238,25 +1238,25 @@
         "border": "2px solid #e2e6e9",
         "borderRadius": "50%",
         "boxShadow": "none",
-        "color": "#0050AA",
+        "color": "#003A80",
         "destructive": {
           "background": "#fff",
           "color": "#E30613",
           "interaction": {
             "active": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "focus": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             },
             "hover": {
               "background": "#fff",
-              "color": "#0050AA",
-              "border": "2px solid #0050AA"
+              "color": "#003A80",
+              "border": "2px solid #003A80"
             }
           }
         },
@@ -1269,18 +1269,18 @@
         "interaction": {
           "active": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           },
           "focus": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           },
           "hover": {
             "background": "#fff",
-            "color": "#0050AA",
-            "border": "2px solid #0050AA"
+            "color": "#003A80",
+            "border": "2px solid #003A80"
           }
         }
       },
@@ -1289,7 +1289,7 @@
         "circle": {
           "borderWidth": "2px",
           "color": {
-            "default": "#0050AA",
+            "default": "#003A80",
             "destructive": "#E30613"
           },
           "size": "20px"
@@ -1353,10 +1353,10 @@
         "padding": "4px 4px"
       },
       "actionArea": {
-        "activeBorder": "2px solid #0050AA",
-        "focusBorder": "2px solid #0050AA",
+        "activeBorder": "2px solid #003A80",
+        "focusBorder": "2px solid #003A80",
         "focusBoxShadow": "none",
-        "hoverBorder": "2px solid #0050AA"
+        "hoverBorder": "2px solid #003A80"
       },
       "content": {
         "fontFamily": "\"Open Sans\", sans-serif",
@@ -1475,11 +1475,11 @@
         "width": "75%",
         "background": {
           "error": "#E30613",
-          "success": "#0050AA",
+          "success": "#003A80",
           "warning": "#FFCC00"
         },
         "content": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "borderRadius": "12px",
           "fontFamily": "\"Open Sans\", sans-serif",
           "fontSize": "0.75rem",
@@ -1515,8 +1515,8 @@
     },
     "checkbox": {
       "active": {
-        "border": "2px solid #0050AA",
-        "checkedBG": "#0050AA"
+        "border": "2px solid #003A80",
+        "checkedBG": "#003A80"
       },
       "background": "#fff",
       "borderRadius": "0",
@@ -1537,16 +1537,16 @@
         "checkedBG": "#E30613"
       },
       "focus": {
-        "border": "2px solid #0050AA",
-        "checkedBG": "#0050AA"
+        "border": "2px solid #003A80",
+        "checkedBG": "#003A80"
       },
       "hover": {
-        "border": "2px solid #0050AA",
-        "checkedBG": "#0050AA"
+        "border": "2px solid #003A80",
+        "checkedBG": "#003A80"
       },
       "info": {
-        "border": "1px solid #0050AA",
-        "checkedBG": "#0050AA"
+        "border": "1px solid #003A80",
+        "checkedBG": "#003A80"
       },
       "indeterminateBackground": "#4d4d4d",
       "inputHeight": "20px",
@@ -1612,12 +1612,12 @@
         "fontSize": "0.75rem",
         "fontWeight": 700,
         "padding": "8px 16px",
-        "activeBackgroundColor": "#0050AA",
+        "activeBackgroundColor": "#003A80",
         "activeBoxShadow": "none",
-        "hoverBackgroundColor": "#0050AA",
+        "hoverBackgroundColor": "#003A80",
         "hoverBoxShadow": "none",
         "focusByTab": {
-          "backgroundColor": "#0050AA",
+          "backgroundColor": "#003A80",
           "color": "#fff",
           "border": "1px dotted #fff"
         }
@@ -1707,11 +1707,11 @@
       }
     },
     "commonInputStyles": {
-      "activeBoxShadow": "0 2px 0 0 #0050AA",
+      "activeBoxShadow": "0 2px 0 0 #003A80",
       "background": "#f1f2f4",
       "borderRadius": 0,
       "boxShadow": "0 1px 0 0 #5A6B7A",
-      "hoverBoxShadow": "0 2px 0 0 #0050AA",
+      "hoverBoxShadow": "0 2px 0 0 #003A80",
       "fontColor": "#4d4d4d",
       "fontFamily": "\"Open Sans\", sans-serif",
       "fontSize": "0.75rem",
@@ -1742,7 +1742,7 @@
       "contentBoxBoxShadow": "0 1px 2px 0 rgba(22,25,29,0.4)",
       "contentBoxHorizontalPadding": "24px",
       "heading": {
-        "background": "#0050AA",
+        "background": "#003A80",
         "paddingTop": "0",
         "paddingBottom": "0",
         "paddingLeft": "24px",
@@ -1831,20 +1831,20 @@
           "interaction": {
             "active": {
               "background": "rgba(0,0,0,0.2)",
-              "border": "2px solid #0050AA",
+              "border": "2px solid #003A80",
               "borderColor": "#fff",
               "color": "#fff"
             },
             "focus": {
               "background": "rgba(0,0,0,0.2)",
-              "border": "2px solid #0050AA",
+              "border": "2px solid #003A80",
               "borderColor": "#fff",
               "color": "#fff",
               "outline": "1px dotted #fff"
             },
             "hover": {
               "background": "rgba(0,0,0,0.2)",
-              "border": "2px solid #0050AA",
+              "border": "2px solid #003A80",
               "borderColor": "#fff",
               "color": "#fff"
             }
@@ -1855,20 +1855,20 @@
         "interaction": {
           "active": {
             "background": "rgba(0,0,0,0.2)",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "color": "#fff"
           },
           "focus": {
             "background": "rgba(0,0,0,0.2)",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "color": "#fff",
             "outline": "1px dotted #fff"
           },
           "hover": {
             "background": "rgba(0,0,0,0.2)",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "color": "#fff"
           }
@@ -1950,26 +1950,26 @@
       "iconMargin": "2px",
       "background": {
         "default": "#b7c0c7",
-        "constructive": "#0050AA",
+        "constructive": "#003A80",
         "destructive": "#E30613"
       },
       "variantColor": "#fff",
       "timing": ".5s",
       "secondary": {
-        "focusColor": "#0050AA",
-        "hoverColor": "#0050AA",
+        "focusColor": "#003A80",
+        "hoverColor": "#003A80",
         "activeColor": "#E30613"
       },
       "focus": {
-        "backgroundColor": "#0050AA",
+        "backgroundColor": "#003A80",
         "color": "#fff"
       },
       "hover": {
-        "backgroundColor": "#0050AA",
+        "backgroundColor": "#003A80",
         "color": "#fff"
       },
       "active": {
-        "backgroundColor": "#0050AA",
+        "backgroundColor": "#003A80",
         "color": "#fff"
       }
     },
@@ -1978,7 +1978,7 @@
         "boxShadow": "0 1px 2px 0 rgba(22,25,29,0.4)"
       },
       "navBar": {
-        "background": "#0050AA"
+        "background": "#003A80"
       },
       "navButton": {
         "size": "32px"
@@ -2008,7 +2008,7 @@
           "padding": "0 32px 0 8px",
           "active": {
             "background": "rgba(0,0,0,0.2)",
-            "border": "2px solid #0050AA"
+            "border": "2px solid #003A80"
           },
           "hover": {
             "background": "rgba(0,0,0,0.2)",
@@ -2024,11 +2024,11 @@
           "background": "#fff",
           "color": "#4d4d4d",
           "active": {
-            "background": "#0050AA",
+            "background": "#003A80",
             "color": "#fff"
           },
           "hover": {
-            "background": "#0050AA",
+            "background": "#003A80",
             "color": "#fff"
           }
         }
@@ -2056,15 +2056,15 @@
         "margin": "0",
         "active": {
           "background": "#fff",
-          "border": "2px solid #0050AA"
+          "border": "2px solid #003A80"
         },
         "hover": {
           "background": "#fff",
-          "border": "2px solid #0050AA"
+          "border": "2px solid #003A80"
         },
         "focus": {
           "background": "#fff",
-          "border": "2px solid #0050AA"
+          "border": "2px solid #003A80"
         },
         "today": {
           "background": "#e2e6e9",
@@ -2075,11 +2075,11 @@
           "color": "#e2e6e9"
         },
         "selected": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "color": "#fff",
           "range": {
             "background": "#f5fbff",
-            "color": "#0050AA",
+            "color": "#003A80",
             "disabled": {
               "background": "#e2e6e9",
               "color": "#a9b3bc"
@@ -2088,18 +2088,18 @@
           "interaction": {
             "active": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA"
+              "border": "2px solid #003A80",
+              "color": "#003A80"
             },
             "focus": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA"
+              "border": "2px solid #003A80",
+              "color": "#003A80"
             },
             "hover": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA"
+              "border": "2px solid #003A80",
+              "color": "#003A80"
             }
           }
         },
@@ -2120,7 +2120,7 @@
           "borderRadius": "0"
         },
         "header": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "height": "48px",
           "padding": "0 16px",
           "icon": {
@@ -2141,7 +2141,7 @@
           "background": "#fff",
           "color": "#4d4d4d",
           "fontSize": "1rem",
-          "focusBoxShadow": "0 2px 0 0 #0050AA"
+          "focusBoxShadow": "0 2px 0 0 #003A80"
         },
         "day": {
           "size": "40px"
@@ -2178,20 +2178,20 @@
         "interaction": {
           "active": {
             "background": "rgba(0,0,0,0.2)",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "color": "#fff"
           },
           "focus": {
             "background": "rgba(0,0,0,0.2)",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "color": "#fff",
             "outline": "1px dotted #fff"
           },
           "hover": {
             "background": "rgba(0,0,0,0.2)",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "borderColor": "#fff",
             "color": "#fff"
           }
@@ -2201,7 +2201,7 @@
     "diagramConfig": {
       "node": {
         "background": "#fff",
-        "border": "2px solid #0050AA",
+        "border": "2px solid #003A80",
         "color": "#202e5d",
         "height": "80px",
         "width": "160px",
@@ -2211,12 +2211,12 @@
         "padding": "8px",
         "selectedBG": "#CDEDFE",
         "selectedColor": "#202e5d",
-        "leftEdgeBorder": "4px solid #0050AA",
+        "leftEdgeBorder": "4px solid #003A80",
         "boxShadow": "0 1px 2px 0 rgba(32,46,93,0.4)",
-        "hoverBorderColor": "#0050AA",
-        "focusBorderColor": "#0050AA",
+        "hoverBorderColor": "#003A80",
+        "focusBorderColor": "#003A80",
         "link": {
-          "border": "2px dashed #0050AA"
+          "border": "2px dashed #003A80"
         },
         "readOnly": {
           "borderColor": "#a9b3bc"
@@ -2258,8 +2258,8 @@
             }
           }
         },
-        "hoverBorderColor": "#0050AA",
-        "focusBorderColor": "#0050AA",
+        "hoverBorderColor": "#003A80",
+        "focusBorderColor": "#003A80",
         "readOnly": {
           "background": "#f1f2f4"
         }
@@ -2272,7 +2272,7 @@
           "size": "4px"
         },
         "interactiveBoxShadow": "0 1px 2px 0 rgba(32,46,93,0.4)",
-        "hoverBG": "#0050AA",
+        "hoverBG": "#003A80",
         "selectedBG": "#0573ad",
         "readOnly": {
           "background": "#616f7c"
@@ -2305,13 +2305,13 @@
       },
       "horizontal": {
         "item": {
-          "activeColor": "#0050AA",
+          "activeColor": "#003A80",
           "graphic": {
             "fontSize": "1.125rem",
             "size": "24px"
           },
           "hover": {
-            "color": "#0050AA"
+            "color": "#003A80"
           },
           "label": {
             "fontSize": "0.625rem",
@@ -2320,14 +2320,14 @@
           "padding": "8px 4px"
         },
         "selectedItem": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "color": "#4d4d4d",
           "graphicColor": "#fff"
         }
       },
       "item": {
         "active": {
-          "border": "2px solid #0050AA",
+          "border": "2px solid #003A80",
           "color": "#4d4d4d"
         },
         "border": "none",
@@ -2339,18 +2339,18 @@
           "fontWeight": 600
         },
         "focusBorder": "1px dotted #16191d",
-        "focusPreselectBorder": "2px solid #0050AA",
+        "focusPreselectBorder": "2px solid #003A80",
         "focusPreselectOutline": "1px dotted #333",
         "fontSize": "0.75rem",
         "hover": {
-          "border": "2px solid #0050AA",
+          "border": "2px solid #003A80",
           "color": "#4d4d4d"
         },
         "lineHeight": "1rem",
         "minHeight": "24px",
         "padding": "4px 8px",
         "preselect": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "color": "#fff"
         }
       },
@@ -2358,34 +2358,34 @@
       "link": {
         "item": {
           "active": {
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "backgroundImage": {
-              "backgroundColor": "#0050AA",
-              "backgroundImage": "linear-gradient(#0050AA, #0050AA)"
+              "backgroundColor": "#003A80",
+              "backgroundImage": "linear-gradient(#003A80, #003A80)"
             },
-            "color": "#0050AA",
+            "color": "#003A80",
             "textDecoration": "none"
           },
           "border": "none",
           "borderBottom": "1px solid #e2e6e9",
           "color": "#4d4d4d",
           "focusBorder": "1px dotted #16191d",
-          "focusPreselectBorder": "2px solid #0050AA",
+          "focusPreselectBorder": "2px solid #003A80",
           "fontSize": "0.75rem",
           "hover": {
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "backgroundImage": {
-              "backgroundColor": "#0050AA",
-              "backgroundImage": "linear-gradient(#0050AA, #0050AA)"
+              "backgroundColor": "#003A80",
+              "backgroundImage": "linear-gradient(#003A80, #003A80)"
             },
-            "color": "#0050AA",
+            "color": "#003A80",
             "textDecoration": "none"
           },
           "lineHeight": "1rem",
           "minHeight": "24px",
           "padding": "4px 8px",
           "preselect": {
-            "background": "#0050AA",
+            "background": "#003A80",
             "backgroundImage": {
               "backgroundColor": "#fff",
               "backgroundImage": "linear-gradient(#fff, #fff)"
@@ -2468,28 +2468,28 @@
           },
           "icon": {
             "active": {
-              "activeBG": "#0050AA",
-              "background": "#0050AA",
-              "border": "2px solid #0050AA",
+              "activeBG": "#003A80",
+              "background": "#003A80",
+              "border": "2px solid #003A80",
               "color": "#fff",
-              "focusBG": "#0050AA",
-              "hoverBG": "#0050AA",
+              "focusBG": "#003A80",
+              "hoverBG": "#003A80",
               "selector": {
                 "background": "#f1f2f4",
-                "color": "#0050AA"
+                "color": "#003A80"
               }
             },
             "color": "#4d4d4d",
             "focus": {
               "background": "#f1f2f4",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA"
+              "border": "2px solid #003A80",
+              "color": "#003A80"
             },
             "fontSize": "1.5rem",
             "hover": {
               "background": "#f1f2f4",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA"
+              "border": "2px solid #003A80",
+              "color": "#003A80"
             },
             "padding": "4px 4px"
           },
@@ -2528,28 +2528,28 @@
           },
           "icon": {
             "active": {
-              "activeBG": "#0050AA",
-              "background": "#0050AA",
-              "border": "2px solid #0050AA",
+              "activeBG": "#003A80",
+              "background": "#003A80",
+              "border": "2px solid #003A80",
               "color": "#fff",
-              "focusBG": "#0050AA",
-              "hoverBG": "#0050AA",
+              "focusBG": "#003A80",
+              "hoverBG": "#003A80",
               "selector": {
                 "background": "#f1f2f4",
-                "color": "#0050AA"
+                "color": "#003A80"
               }
             },
             "color": "#4d4d4d",
             "focus": {
               "background": "#f1f2f4",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA"
+              "border": "2px solid #003A80",
+              "color": "#003A80"
             },
             "fontSize": "1.5rem",
             "hover": {
               "background": "#f1f2f4",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA"
+              "border": "2px solid #003A80",
+              "color": "#003A80"
             },
             "padding": "4px 4px"
           },
@@ -2589,12 +2589,12 @@
     "fileUpload": {
       "actionsMargin": "8px 8px",
       "active": {
-        "border": "2px solid #0050AA",
-        "color": "#0050AA"
+        "border": "2px solid #003A80",
+        "color": "#003A80"
       },
       "content": {
         "background": "transparent",
-        "border": "1px dashed #0050AA",
+        "border": "1px dashed #003A80",
         "borderRadius": "2px",
         "childBorder": "1px solid #e2e6e9",
         "loadingBorder": "1px solid #e2e6e9",
@@ -2608,7 +2608,7 @@
         "uploaded": {
           "borderColor": {
             "error": "#E30613",
-            "info": "#0050AA",
+            "info": "#003A80",
             "warning": "#CCA300"
           }
         }
@@ -2619,16 +2619,16 @@
       },
       "errorColor": "#E30613",
       "focus": {
-        "border": "2px solid #0050AA",
-        "color": "#0050AA"
+        "border": "2px solid #003A80",
+        "color": "#003A80"
       },
       "hover": {
-        "border": "2px solid #0050AA",
-        "color": "#0050AA"
+        "border": "2px solid #003A80",
+        "color": "#003A80"
       },
-      "infoColor": "#0050AA",
+      "infoColor": "#003A80",
       "icon": {
-        "color": "#0050AA",
+        "color": "#003A80",
         "fontSize": "1.5rem",
         "loading": {
           "color": "#E30613",
@@ -2636,7 +2636,7 @@
           "size": "4px"
         },
         "variant": {
-          "info": "#0050AA",
+          "info": "#003A80",
           "error": "#E30613",
           "warning": "#CCA300"
         }
@@ -2651,7 +2651,7 @@
         "color": "#616f7c"
       },
       "text": {
-        "color": "#0050AA",
+        "color": "#003A80",
         "fontFamily": "\"Open Sans\", sans-serif",
         "fontSize": "0.75rem",
         "fontWeight": 700
@@ -2703,26 +2703,26 @@
         "maxWidth": "281px",
         "minWidth": "56px",
         "active": {
-          "color": "#0050AA",
-          "border": "2px solid #0050AA"
+          "color": "#003A80",
+          "border": "2px solid #003A80"
         },
         "hover": {
-          "color": "#0050AA",
-          "border": "2px solid #0050AA"
+          "color": "#003A80",
+          "border": "2px solid #003A80"
         },
         "focus": {
-          "color": "#0050AA",
-          "border": "2px solid #0050AA"
+          "color": "#003A80",
+          "border": "2px solid #003A80"
         }
       },
       "indicator": {
         "active": {
           "width": "4px",
-          "background": "#0050AA",
+          "background": "#003A80",
           "disabledBackground": "#a9b3bc",
-          "activeBackground": "#0050AA",
-          "hoverBackground": "#0050AA",
-          "focusBackground": "#0050AA"
+          "activeBackground": "#003A80",
+          "hoverBackground": "#003A80",
+          "focusBackground": "#003A80"
         }
       },
       "name": {
@@ -2737,9 +2737,9 @@
           "size": "3px",
           "borderBottomColor": {
             "default": "#7F8C9B",
-            "active": "#0050AA",
-            "hover": "#0050AA",
-            "focus": "#0050AA"
+            "active": "#003A80",
+            "hover": "#003A80",
+            "focus": "#003A80"
           }
         }
       },
@@ -2835,14 +2835,14 @@
         "borderBottom": "1px solid #e2e6e9",
         "focusByKeyBoardBorder": "1px dotted #333",
         "activeIndicator": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "width": "4px"
         },
         "activeBorderLeft": {
-          "default": "4px solid #0050AA",
-          "active": "4px solid #0050AA",
-          "hover": "4px solid #0050AA",
-          "focus": "4px solid #0050AA"
+          "default": "4px solid #003A80",
+          "active": "4px solid #003A80",
+          "hover": "4px solid #003A80",
+          "focus": "4px solid #003A80"
         },
         "disabledColor": "#e2e6e9",
         "graphicWidth": "48px",
@@ -2871,7 +2871,7 @@
       "collapsiblePanel": {
         "h3": {
           "background": {
-            "activeAndHover": "#0050AA",
+            "activeAndHover": "#003A80",
             "normalAndFocus": "#5A6B7A"
           },
           "color": "#fff",
@@ -2980,8 +2980,8 @@
         "fontWeight": 600
       },
       "variant": {
-        "info": "#0050AA",
-        "success": "#0050AA",
+        "info": "#003A80",
+        "success": "#003A80",
         "warning": "#FFCC00",
         "error": "#E30613",
         "text": {
@@ -3033,18 +3033,18 @@
         "graphicFontSize": "1.125rem",
         "light": {
           "active": {
-            "borderColor": "#0050AA",
-            "color": "#0050AA"
+            "borderColor": "#003A80",
+            "color": "#003A80"
           },
           "background": "#f1f2f4",
           "color": "#4d4d4d",
           "focus": {
-            "borderColor": "#0050AA",
-            "color": "#0050AA"
+            "borderColor": "#003A80",
+            "color": "#003A80"
           },
           "hover": {
-            "borderColor": "#0050AA",
-            "color": "#0050AA"
+            "borderColor": "#003A80",
+            "color": "#003A80"
           }
         },
         "padding": "2px 6px"
@@ -3053,9 +3053,9 @@
       "textTransform": "uppercase",
       "vertical": {
         "icon": {
-          "activeColor": "#0050AA",
-          "focusColor": "#0050AA",
-          "hoverColor": "#0050AA"
+          "activeColor": "#003A80",
+          "focusColor": "#003A80",
+          "hoverColor": "#003A80"
         },
         "graphicFontSize": "1.125rem",
         "languageFontSize": "0.75rem"
@@ -3069,8 +3069,8 @@
     "icon": {
       "color": "#7F8C9B",
       "variant": {
-        "success": "#0050AA",
-        "info": "#0050AA",
+        "success": "#003A80",
+        "info": "#003A80",
         "error": "#E30613",
         "warning": "#CCA300"
       },
@@ -3081,7 +3081,7 @@
       "containerMargin": "4px 0 0 0",
       "inputSelectedIconColor": "#4d4d4d",
       "item": {
-        "hoverColor": "#0050AA",
+        "hoverColor": "#003A80",
         "icon": {
           "fontSize": "1.125rem",
           "size": "24px"
@@ -3095,7 +3095,7 @@
       "selectedItem": {
         "color": "#4d4d4d",
         "icon": {
-          "backgroundColor": "#0050AA",
+          "backgroundColor": "#003A80",
           "color": "#fff"
         }
       },
@@ -3109,7 +3109,7 @@
       "minHeight": "32px",
       "textTransform": "unset",
       "primary": {
-        "background": "#0050AA",
+        "background": "#003A80",
         "border": "2px solid transparent",
         "boxShadow": "0 1px 2px 0 #16191d66",
         "color": "#fff",
@@ -3127,21 +3127,21 @@
           "interaction": {
             "focus": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA",
+              "border": "2px solid #003A80",
+              "color": "#003A80",
               "outline": "1px dotted #333",
               "textDecoration": "none"
             },
             "hover": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA",
+              "border": "2px solid #003A80",
+              "color": "#003A80",
               "textDecoration": "none"
             }
           }
         },
         "selected": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "color": "#fff",
           "padding": "0 32px",
           "icon": {
@@ -3153,15 +3153,15 @@
           "interaction": {
             "focus": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA",
+              "border": "2px solid #003A80",
+              "color": "#003A80",
               "outline": "1px dotted #333",
               "textDecoration": "none"
             },
             "hover": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA",
+              "border": "2px solid #003A80",
+              "color": "#003A80",
               "textDecoration": "none"
             }
           }
@@ -3179,15 +3179,15 @@
         "interaction": {
           "focus": {
             "background": "#fff",
-            "border": "2px solid #0050AA",
-            "color": "#0050AA",
+            "border": "2px solid #003A80",
+            "color": "#003A80",
             "outline": "1px dotted #333",
             "textDecoration": "none"
           },
           "hover": {
             "background": "#fff",
-            "border": "2px solid #0050AA",
-            "color": "#0050AA",
+            "border": "2px solid #003A80",
+            "color": "#003A80",
             "textDecoration": "none"
           }
         }
@@ -3196,7 +3196,7 @@
         "background": "transparent",
         "border": "2px solid transparent",
         "borderRadius": "0",
-        "color": "#0050AA",
+        "color": "#003A80",
         "padding": "0 8px",
         "icon": {
           "color": "inherit"
@@ -3211,22 +3211,22 @@
           "interaction": {
             "focus": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA",
+              "border": "2px solid #003A80",
+              "color": "#003A80",
               "outline": "1px dotted #333",
               "textDecoration": "none"
             },
             "hover": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA",
+              "border": "2px solid #003A80",
+              "color": "#003A80",
               "textDecoration": "none"
             }
           }
         },
         "selected": {
           "background": "#f1f2f4",
-          "color": "#0050AA",
+          "color": "#003A80",
           "padding": "0 8px",
           "icon": {
             "color": "inherit",
@@ -3237,15 +3237,15 @@
           "interaction": {
             "focus": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA",
+              "border": "2px solid #003A80",
+              "color": "#003A80",
               "outline": "1px dotted #333",
               "textDecoration": "none"
             },
             "hover": {
               "background": "#fff",
-              "border": "2px solid #0050AA",
-              "color": "#0050AA",
+              "border": "2px solid #003A80",
+              "color": "#003A80",
               "textDecoration": "none"
             }
           }
@@ -3263,15 +3263,15 @@
         "interaction": {
           "focus": {
             "background": "#fff",
-            "border": "2px solid #0050AA",
-            "color": "#0050AA",
+            "border": "2px solid #003A80",
+            "color": "#003A80",
             "outline": "1px dotted #333",
             "textDecoration": "none"
           },
           "hover": {
             "background": "#fff",
-            "border": "2px solid #0050AA",
-            "color": "#0050AA",
+            "border": "2px solid #003A80",
+            "color": "#003A80",
             "textDecoration": "none"
           }
         }
@@ -3303,8 +3303,8 @@
     },
     "link": {
       "backgroundSize": "calc(100% - 1px) calc(0.1 * 1rem)",
-      "color": "#0050AA",
-      "visitedColor": "#0050AA",
+      "color": "#003A80",
+      "visitedColor": "#003A80",
       "fontFamily": "\"Open Sans\", sans-serif",
       "fontSize": "0.75rem",
       "fontWeight": 700,
@@ -3316,26 +3316,26 @@
       "transitionTiming": "0.3s",
       "active": {
         "backgroundImage": {
-          "backgroundColor": "#0050AA",
-          "backgroundImage": "linear-gradient(#0050AA, #0050AA)"
+          "backgroundColor": "#FFCC00",
+          "backgroundImage": "linear-gradient(#FFCC00, #FFCC00)"
         },
-        "color": "#0050AA",
+        "color": "#003A80",
         "textDecoration": "none"
       },
       "hover": {
         "backgroundImage": {
-          "backgroundColor": "#0050AA",
-          "backgroundImage": "linear-gradient(#0050AA, #0050AA)"
+          "backgroundColor": "#FFCC00",
+          "backgroundImage": "linear-gradient(#FFCC00, #FFCC00)"
         },
-        "color": "#0050AA",
+        "color": "#003A80",
         "textDecoration": "none"
       },
       "focus": {
         "backgroundImage": {
-          "backgroundColor": "#0050AA",
-          "backgroundImage": "linear-gradient(#0050AA, #0050AA)"
+          "backgroundColor": "#003A80",
+          "backgroundImage": "linear-gradient(#003A80, #003A80)"
         },
-        "color": "#0050AA",
+        "color": "#003A80",
         "outline": "1px dotted #333",
         "textDecoration": "none"
       }
@@ -3347,7 +3347,7 @@
       "dividerMargin": 0,
       "fontFamily": "\"Open Sans\", sans-serif",
       "item": {
-        "activeBorder": "2px solid #0050AA",
+        "activeBorder": "2px solid #003A80",
         "color": "#4d4d4d",
         "gap": "16px",
         "buttonSemanticsGap": "4px",
@@ -3356,23 +3356,23 @@
           "dark": "2px solid #D3D6DC"
         },
         "disabledColor": "#a9b3bc",
-        "focusBorder": "2px solid #0050AA",
+        "focusBorder": "2px solid #003A80",
         "focusOutline": "1px dotted #333",
         "hoverBG": "#f1f2f4",
-        "hoverBorder": "2px solid #0050AA",
+        "hoverBorder": "2px solid #003A80",
         "hoverTextDecoration": "none",
         "padding": "8px 16px",
         "readOnly": {
           "color": "inherit"
         },
         "selected": {
-          "activeLeftBorder": "4px solid #0050AA",
+          "activeLeftBorder": "4px solid #003A80",
           "background": "#f5fbff",
           "color": "inherit",
-          "focusLeftBorder": "4px solid #0050AA",
+          "focusLeftBorder": "4px solid #003A80",
           "fontWeight": 400,
-          "hoverLeftBorder": "4px solid #0050AA",
-          "leftBorder": "4px solid #0050AA"
+          "hoverLeftBorder": "4px solid #003A80",
+          "leftBorder": "4px solid #003A80"
         },
         "spacing": "16px",
         "graphic": {
@@ -3515,7 +3515,7 @@
           "padding": "4px 4px",
           "variant": {
             "error": "#E30613",
-            "info": "#0050AA",
+            "info": "#003A80",
             "warning": "#FFCC00",
             "text": {
               "error": "#fff",
@@ -3625,24 +3625,24 @@
         "vertical": {
           "active": {
             "background": "#fff",
-            "border": "2px solid #0050AA"
+            "border": "2px solid #003A80"
           },
           "borderBottom": "1px solid #e2e6e9",
           "focus": {
             "background": "#fff",
-            "border": "2px solid #0050AA",
+            "border": "2px solid #003A80",
             "outline": "1px dotted #333"
           },
           "hover": {
             "background": "#fff",
-            "border": "2px solid #0050AA"
+            "border": "2px solid #003A80"
           },
           "selected": {
-            "activeBorderLeft": "4px solid #0050AA",
+            "activeBorderLeft": "4px solid #003A80",
             "background": "#f5fbff",
-            "borderLeft": "4px solid #0050AA",
-            "focusBorderLeft": "4px solid #0050AA",
-            "hoverBorderLeft": "4px solid #0050AA",
+            "borderLeft": "4px solid #003A80",
+            "focusBorderLeft": "4px solid #003A80",
+            "hoverBorderLeft": "4px solid #003A80",
             "hover": {
               "borderBottom": "4px solid #fff",
               "color": "#fff",
@@ -3653,10 +3653,10 @@
             "status": {
               "variant": {
                 "open": "#4d4d4d",
-                "info": "#0050AA",
+                "info": "#003A80",
                 "error": "#E30613",
                 "warning": "#CCA300",
-                "done": "#0050AA"
+                "done": "#003A80"
               }
             }
           }
@@ -3785,7 +3785,7 @@
         "borderBottom": "1px solid rgba(22,25,29,0.22)",
         "borderTop": "1px solid rgba(255,255,255,0.12)",
         "mainLayer": {
-          "background": "#0050AA"
+          "background": "#003A80"
         },
         "subLayer": {
           "background": "#003A80"
@@ -3885,8 +3885,8 @@
     "messageBox": {
       "border": {
         "error": "2px solid #E30613",
-        "info": "2px solid #0050AA",
-        "success": "2px solid #0050AA",
+        "info": "2px solid #003A80",
+        "success": "2px solid #003A80",
         "warning": "2px solid #FFCC00"
       },
       "background": {
@@ -3944,8 +3944,8 @@
       },
       "variant": {
         "error": "#E30613",
-        "info": "#0050AA",
-        "success": "#0050AA",
+        "info": "#003A80",
+        "success": "#003A80",
         "warning": "#FFCC00",
         "text": {
           "error": "#fff",
@@ -3996,9 +3996,9 @@
             "radius": "2px",
             "width": "2px"
           },
-          "focusBorder": "2px solid #0050AA",
+          "focusBorder": "2px solid #003A80",
           "height": "calc(8px + 1rem)",
-          "hoverBorder": "2px solid #0050AA"
+          "hoverBorder": "2px solid #003A80"
         },
         "width": "calc(32px + 3.25rem)"
       },
@@ -4138,13 +4138,13 @@
         "invertBG": "#fff",
         "invertOpacity": "50%",
         "invertSecondaryBG": "#fff",
-        "primaryBG": "#0050AA",
+        "primaryBG": "#003A80",
         "primaryOpacity": "20%",
         "primaryDestructiveBG": "#E30613",
-        "secondaryActiveBG": "#0050AA",
+        "secondaryActiveBG": "#003A80",
         "secondaryBG": "#e2e6e9",
-        "secondaryFocusBG": "#0050AA",
-        "secondaryHoverBG": "#0050AA",
+        "secondaryFocusBG": "#003A80",
+        "secondaryHoverBG": "#003A80",
         "width": "2px"
       },
       "primary": {
@@ -4165,8 +4165,8 @@
     "radio": {
       "active": {
         "background": "#fff",
-        "border": "2px solid #0050AA",
-        "checkedBG": "#0050AA"
+        "border": "2px solid #003A80",
+        "checkedBG": "#003A80"
       },
       "background": "#fff",
       "checked": {
@@ -4184,17 +4184,17 @@
         "checkedBG": "#E30613"
       },
       "focus": {
-        "border": "2px solid #0050AA",
-        "checkedBG": "#0050AA"
+        "border": "2px solid #003A80",
+        "checkedBG": "#003A80"
       },
       "hover": {
         "background": "#fff",
-        "border": "2px solid #0050AA",
-        "checkedBG": "#0050AA"
+        "border": "2px solid #003A80",
+        "checkedBG": "#003A80"
       },
       "info": {
-        "border": "1px solid #0050AA",
-        "checkedBG": "#0050AA"
+        "border": "1px solid #003A80",
+        "checkedBG": "#003A80"
       },
       "inputHeight": "20px",
       "label": {
@@ -4239,11 +4239,11 @@
       },
       "option": {
         "active": {
-          "backgroundColor": "#0050AA",
+          "backgroundColor": "#003A80",
           "color": "#fff"
         },
         "hover": {
-          "backgroundColor": "#0050AA",
+          "backgroundColor": "#003A80",
           "color": "#fff"
         }
       },
@@ -4263,32 +4263,32 @@
       "fill": {
         "height": "2px",
         "background": "#e2e6e9",
-        "hoverBackground": "#0050AA",
-        "leftActiveBackground": "#0050AA",
+        "hoverBackground": "#003A80",
+        "leftActiveBackground": "#003A80",
         "leftBG": "#a9b3bc",
         "leftDisabledBackground": "#e2e6e9",
-        "leftFocusBackground": "#0050AA"
+        "leftFocusBackground": "#003A80"
       },
       "tick": {
         "background": "#e2e6e9",
         "borderRadius": "1px",
-        "hoverBackground": "#0050AA",
-        "leftActiveBackground": "#0050AA",
+        "hoverBackground": "#003A80",
+        "leftActiveBackground": "#003A80",
         "leftBackground": "#a9b3bc",
         "leftDisabledBackground": "#e2e6e9",
-        "leftFocusBackground": "#0050AA",
+        "leftFocusBackground": "#003A80",
         "width": "1px",
         "height": "12px",
         "top": "-5px"
       },
       "thumb": {
-        "activeBackground": "#0050AA",
-        "thumbBackground": "#0050AA",
+        "activeBackground": "#003A80",
+        "thumbBackground": "#003A80",
         "borderRadius": "50% 50% 18% 50%",
         "disabledBackground": "#e2e6e9",
-        "focusBackground": "#0050AA",
+        "focusBackground": "#003A80",
         "size": "18px",
-        "hoverBackground": "#0050AA",
+        "hoverBackground": "#003A80",
         "invalidBackground": "#E30613",
         "readonlyBackground": "#a9b3bc",
         "transformOrigin": "79% -31%",
@@ -4324,8 +4324,8 @@
       "variant": {
         "background": {
           "error": "#E30613",
-          "info": "#0050AA",
-          "success": "#0050AA",
+          "info": "#003A80",
+          "success": "#003A80",
           "warning": "#FFCC00"
         },
         "color": {
@@ -4365,11 +4365,11 @@
       },
       "thumb": {
         "active": {
-          "color": "#0050AA",
+          "color": "#003A80",
           "size": "22px"
         },
-        "border": "2px solid #0050AA",
-        "color": "#0050AA",
+        "border": "2px solid #003A80",
+        "color": "#003A80",
         "disabled": {
           "backgroundColor": "#e2e6e9",
           "borderWidth": "1px",
@@ -4377,15 +4377,15 @@
         },
         "errorColor": "#E30613",
         "focus": {
-          "color": "#0050AA",
+          "color": "#003A80",
           "size": "22px"
         },
         "hover": {
-          "color": "#0050AA",
+          "color": "#003A80",
           "size": "22px"
         },
         "iconSize": "12px",
-        "infoColor": "#0050AA",
+        "infoColor": "#003A80",
         "readonly": {
           "borderWidth": "1px",
           "color": "#616f7c"
@@ -4505,9 +4505,9 @@
         "highlightedBG": "#e2e6e9",
         "inputsHighlightedBG": "#fff",
         "interactive": {
-          "activeBorder": "2px solid #0050AA",
-          "hoverBorder": "2px solid #0050AA",
-          "focusBorder": "2px solid #0050AA",
+          "activeBorder": "2px solid #003A80",
+          "hoverBorder": "2px solid #003A80",
+          "focusBorder": "2px solid #003A80",
           "borderWidth": "2px"
         },
         "nonInteractive": {
@@ -4521,12 +4521,12 @@
         },
         "selected": {
           "background": "#f5fbff",
-          "activeBorderColor": "#0050AA",
+          "activeBorderColor": "#003A80",
           "focusBorderWidth": "4px",
-          "focusBG": "#0050AA",
-          "hoverBorderColor": "#0050AA",
-          "focusBorderColor": "#0050AA",
-          "borderLeft": "4px solid #0050AA"
+          "focusBG": "#003A80",
+          "hoverBorderColor": "#003A80",
+          "focusBorderColor": "#003A80",
+          "borderLeft": "4px solid #003A80"
         },
         "subBGRatio": 0.05,
         "successBG": "#ecf9eb",
@@ -4600,13 +4600,13 @@
         "tooltipMargin": 0,
         "touchMinHeight": "40px",
         "sortable": {
-          "color": "#0050AA",
-          "activeColor": "#0050AA",
-          "activeBorder": "2px solid #0050AA",
-          "hoverBorder": "2px solid #0050AA",
-          "hoverColor": "#0050AA",
-          "focusBorder": "2px solid #0050AA",
-          "focusColor": "#0050AA",
+          "color": "#003A80",
+          "activeColor": "#003A80",
+          "activeBorder": "2px solid #003A80",
+          "hoverBorder": "2px solid #003A80",
+          "hoverColor": "#003A80",
+          "focusBorder": "2px solid #003A80",
+          "focusColor": "#003A80",
           "plasmaIconFontSize": "1.5rem"
         }
       },
@@ -4677,16 +4677,16 @@
         "border": "1px solid #a9b3bc",
         "color": {
           "default": "#4d4d4d",
-          "focus": "#0050AA",
-          "hover": "#0050AA",
-          "active": "#0050AA"
+          "focus": "#003A80",
+          "hover": "#003A80",
+          "active": "#003A80"
         },
-        "focusBorderColor": "#0050AA",
+        "focusBorderColor": "#003A80",
         "fontFamily": "\"Open Sans\", sans-serif",
         "fontSize": "0.75rem",
         "lineHeight": "1rem",
         "padding": "3px 8px",
-        "linkColor": "#0050AA"
+        "linkColor": "#003A80"
       },
       "exitTransition": {
         "margin": "0 0 8px 2px",
@@ -4720,15 +4720,15 @@
       },
       "errorBoxShadow": "0 1px 0 0 #E30613",
       "fieldMinWidth": 24,
-      "infoBoxShadow": "0 1px 0 0 #0050AA",
+      "infoBoxShadow": "0 1px 0 0 #003A80",
       "readonlyBG": "#f1f2f4",
       "tag": {
-        "activeBorderColor": "#0050AA",
+        "activeBorderColor": "#003A80",
         "disabled": {
           "background": "#f1f2f4",
           "color": "#a9b3bc"
         },
-        "hoverBorderColor": "#0050AA",
+        "hoverBorderColor": "#003A80",
         "margin": "4px 8px 4px 0",
         "readonlyBG": "#e2e6e9"
       },
@@ -4796,7 +4796,7 @@
         "color": "#4d4d4d",
         "size": "244px",
         "pointer": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "initialBackground": "#7F8C9B",
           "innerDot": {
             "size": "8px"
@@ -4824,8 +4824,8 @@
         "padding": "8px 16px 16px 16px",
         "itemBorder": {
           "default": "2px solid transparent",
-          "active": "2px solid #0050AA",
-          "hover": "2px solid #0050AA"
+          "active": "2px solid #003A80",
+          "hover": "2px solid #003A80"
         }
       },
       "timeValue": {
@@ -4833,14 +4833,14 @@
         "borderRadius": "2px",
         "size": "36px",
         "margin": "0 2px",
-        "selectedBorderColor": "#0050AA",
+        "selectedBorderColor": "#003A80",
         "fontWeight": 600
       },
       "format": {
         "fontWeight": 600,
         "size": "32px",
         "selected": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "color": "#fff"
         }
       }
@@ -4865,8 +4865,8 @@
       },
       "color": {
         "error": "#E30613",
-        "info": "#0050AA",
-        "success": "#0050AA",
+        "info": "#003A80",
+        "success": "#003A80",
         "warning": "#FFCC00"
       },
       "content": {
@@ -4945,22 +4945,22 @@
         "minHeight": "30px",
         "border": "1px solid transparent",
         "active": {
-          "border": "2px solid #0050AA",
+          "border": "2px solid #003A80",
           "minHeight": "32px"
         },
         "focus": {
-          "border": "2px solid #0050AA",
+          "border": "2px solid #003A80",
           "minHeight": "32px",
           "outline": "1px dotted #333"
         },
         "hover": {
-          "border": "2px solid #0050AA",
+          "border": "2px solid #003A80",
           "minHeight": "32px"
         }
       },
       "item": {
         "minHeight": "32px",
-        "color": "#0050AA",
+        "color": "#003A80",
         "background": "#f1f2f4",
         "border": "1px solid #16191d",
         "borderRadius": "3px",
@@ -4974,16 +4974,16 @@
           "color": "#a9b3bc"
         },
         "active": {
-          "color": "#0050AA",
+          "color": "#003A80",
           "textDecoration": "underline"
         },
         "gap": "2px",
         "hover": {
-          "color": "#0050AA",
+          "color": "#003A80",
           "textDecoration": "underline"
         },
         "focus": {
-          "color": "#0050AA",
+          "color": "#003A80",
           "textDecoration": "underline"
         },
         "mouseOver": {
@@ -4994,10 +4994,10 @@
           "color": "#4d4d4d"
         },
         "selected": {
-          "background": "#0050AA",
+          "background": "#003A80",
           "color": "#fff",
           "active": {
-            "background": "#0050AA",
+            "background": "#003A80",
             "color": "#fff"
           },
           "disabled": {
@@ -5005,11 +5005,11 @@
             "color": "#e2e6e9"
           },
           "focus": {
-            "background": "#0050AA",
+            "background": "#003A80",
             "color": "#fff"
           },
           "hover": {
-            "background": "#0050AA",
+            "background": "#003A80",
             "color": "#fff"
           },
           "readonly": {
@@ -5038,13 +5038,13 @@
             "background": "#f1f2f4",
             "border": "2px solid transparent",
             "borderRadius": "3px",
-            "color": "#0050AA",
+            "color": "#003A80",
             "disabled": {
               "background": "#e2e6e9",
               "color": "#a9b3bc"
             },
             "focus": {
-              "borderColor": "#0050AA"
+              "borderColor": "#003A80"
             },
             "fontFamily": "\"Open Sans\", sans-serif",
             "fontSize": "0.75rem",
@@ -5059,13 +5059,13 @@
       }
     },
     "tooltip": {
-      "activeColor": "#0050AA",
+      "activeColor": "#003A80",
       "arrow": {
         "background": "#fff",
         "border": "1px solid #E30613",
         "boxShadow": "2px 2px 2px 0 rgba(22,25,29,0.4)"
       },
-      "color": "#0050AA",
+      "color": "#003A80",
       "containerMaxWidth": "500px",
       "content": {
         "background": "#fff",
@@ -5081,18 +5081,18 @@
         "background": "#fce9e9",
         "color": "#E30613"
       },
-      "focusColor": "#0050AA",
+      "focusColor": "#003A80",
       "hint": {
         "background": "#fff",
-        "color": "#0050AA",
+        "color": "#003A80",
         "contentColor": "#4d4d4d"
       },
-      "hoverColor": "#0050AA",
+      "hoverColor": "#003A80",
       "iconFontSize": "1.25rem",
       "nextToLabelMargin": "0 0 4px 0",
       "success": {
         "background": "#fff",
-        "color": "#0050AA",
+        "color": "#003A80",
         "contentColor": "#4d4d4d"
       },
       "typesQuantity": 4,
@@ -5111,7 +5111,7 @@
         "boxShadow": "2px 2px 2px 0 rgba(22,25,29,0.4)",
         "size": 12
       },
-      "border": "1px solid  #0050AA",
+      "border": "1px solid  #003A80",
       "content": {
         "background": "#fff",
         "textColor": "#4d4d4d",
@@ -5126,12 +5126,12 @@
       "variants": {
         "hint": {
           "background": "#fff",
-          "color": "#0050AA",
+          "color": "#003A80",
           "contentColor": "#4d4d4d"
         },
         "success": {
           "background": "#fff",
-          "color": "#0050AA",
+          "color": "#003A80",
           "contentColor": "#4d4d4d"
         },
         "warning": {
@@ -5161,10 +5161,10 @@
       "hintHeight": "8px",
       "insertHint": {
         "background": "rgba(213,0,117,0.5)",
-        "border": "1px solid #0050AA",
+        "border": "1px solid #003A80",
         "focus": {
           "background": "rgba(213,0,117,0.5)",
-          "border": "1px solid #0050AA"
+          "border": "1px solid #003A80"
         }
       },
       "node": {
@@ -5180,14 +5180,14 @@
         "button": {
           "active": {
             "background": "#fff",
-            "color": "#0050AA"
+            "color": "#003A80"
           },
           "focusBG": "#fff",
           "fontSize": "1.5rem",
           "iconFontWeight": 600,
           "hover": {
             "background": "#fff",
-            "color": "#0050AA"
+            "color": "#003A80"
           },
           "size": "32px"
         }
@@ -5195,7 +5195,7 @@
       "nodeContent": {
         "active": {
           "background": "#f1f2f4",
-          "border": "2px solid #0050AA"
+          "border": "2px solid #003A80"
         },
         "borderBottom": "1px solid #D3D6DC",
         "disabled": {
@@ -5217,20 +5217,20 @@
         },
         "focus": {
           "background": "#f1f2f4",
-          "border": "2px solid #0050AA",
+          "border": "2px solid #003A80",
           "outline": "1px dotted #333"
         },
         "hover": {
           "background": "#f1f2f4",
-          "border": "2px solid #0050AA"
+          "border": "2px solid #003A80"
         },
         "minHeight": "48px",
         "selected": {
-          "activeBorderLeft": "4px solid #0050AA",
+          "activeBorderLeft": "4px solid #003A80",
           "background": "#f5fbff",
-          "borderLeft": "4px solid #0050AA",
-          "focusBorderLeft": "4px solid #0050AA",
-          "hoverBorderLeft": "4px solid #0050AA"
+          "borderLeft": "4px solid #003A80",
+          "focusBorderLeft": "4px solid #003A80",
+          "hoverBorderLeft": "4px solid #003A80"
         },
         "successBG": "#ecf9eb"
       },
@@ -5314,12 +5314,12 @@
         "width": "100%"
       },
       "collapsible": {
-        "activeBG": "#0050AA",
+        "activeBG": "#003A80",
         "activeColor": "#fff",
-        "focusBG": "#0050AA",
+        "focusBG": "#003A80",
         "focusBorder": "1px dotted #fff",
         "focusColor": "#fff",
-        "hoverBG": "#0050AA",
+        "hoverBG": "#003A80",
         "hoverColor": "#fff"
       },
       "body": {
@@ -5391,7 +5391,7 @@
       "padding": 0,
       "variant": {
         "error": "#E30613",
-        "info": "#0050AA",
+        "info": "#003A80",
         "warning": "#FFCC00",
         "text": {
           "error": "#fff",
@@ -5492,21 +5492,21 @@
     "wizard": {
       "navigator": {
         "active": {
-          "border": "2px solid #0050AA",
+          "border": "2px solid #003A80",
           "color": "#E30613"
         },
         "background": "#f1f2f4",
-        "color": "#0050AA",
+        "color": "#003A80",
         "disabledColor": "#a9b3bc",
         "focus": {
-          "border": "2px solid #0050AA",
-          "color": "#0050AA",
+          "border": "2px solid #003A80",
+          "color": "#003A80",
           "outline": "1px dotted #fff"
         },
         "fontSize": "1.25rem",
         "hover": {
-          "border": "2px solid #0050AA",
-          "color": "#0050AA"
+          "border": "2px solid #003A80",
+          "color": "#003A80"
         },
         "margin": "0 0 0 2px",
         "padding": "0 24px"
@@ -5517,7 +5517,7 @@
           "padding": "10px 0"
         },
         "background": "#f1f2f4",
-        "color": "#0050AA",
+        "color": "#003A80",
         "fontFamily": "\"Open Sans\", sans-serif",
         "fontSize": "0.75rem",
         "fontWeight": 600,
@@ -5532,10 +5532,10 @@
         "activeColor": "#E30613",
         "border": "1px solid #a9b3bc",
         "disabledColor": "#a9b3bc",
-        "focusColor": "#0050AA",
+        "focusColor": "#003A80",
         "hover": {
           "background": "#f1f2f4",
-          "color": "#0050AA"
+          "color": "#003A80"
         },
         "leftOut": {
           "background": "#f1f2f4",
@@ -5545,18 +5545,18 @@
         "minWidth": "78px",
         "selected": {
           "active": {
-            "background": "#0050AA",
+            "background": "#003A80",
             "color": "#fff"
           },
-          "background": "#0050AA",
+          "background": "#003A80",
           "color": "#fff",
-          "finishedBG": "#0050AA",
+          "finishedBG": "#003A80",
           "focus": {
-            "background": "#0050AA",
+            "background": "#003A80",
             "color": "#fff"
           },
           "hover": {
-            "background": "#0050AA",
+            "background": "#003A80",
             "color": "#fff"
           }
         }
@@ -5570,10 +5570,10 @@
       "variant": {
         "selected": {
           "background": "#e5f4ff",
-          "border": "1px solid #0050AA"
+          "border": "1px solid #003A80"
         },
         "hover": {
-          "border": "2px solid #0050AA"
+          "border": "2px solid #003A80"
         },
         "focus": {
           "border": "2px solid #E30613"
@@ -5596,12 +5596,12 @@
       },
       "item": {
         "selected": {
-          "borderLeft": "4px solid #0050AA",
-          "focusBorderLeft": "4px solid #0050AA",
-          "hoverBorderLeft": "4px solid #0050AA"
+          "borderLeft": "4px solid #003A80",
+          "focusBorderLeft": "4px solid #003A80",
+          "hoverBorderLeft": "4px solid #003A80"
         },
-        "hoverBorder": "2px solid #0050AA",
-        "focusBorder": "2px solid #0050AA"
+        "hoverBorder": "2px solid #003A80",
+        "focusBorder": "2px solid #003A80"
       },
       "weekView": {
         "background": "#d3d6dc",

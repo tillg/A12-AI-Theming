@@ -1,6 +1,6 @@
 {
   "colors": {
-    "primaryColor": "#232F3E",
+    "primaryColor": "#131921",
     "secondaryColor": "#37475A",
     "text": {
       "color": "#0F1111",
@@ -297,12 +297,12 @@
         "position": "relative"
       },
       "header": {
-        "background": "#232F3E",
+        "background": "#131921",
         "boxShadow": "0 1px 2px 0 rgba(22,25,29,0.4)",
         "minHeight": "48px"
       },
       "sidebar": {
-        "background": "#232F3E",
+        "background": "#131921",
         "boxShadow": "0 1px 4px 0 rgba(22,25,29,0.4)",
         "containerBackground": "#fff",
         "containerBorderRight": "none",
@@ -372,7 +372,7 @@
       }
     },
     "applicationHeader": {
-      "backgroundColor": "#232F3E",
+      "backgroundColor": "#131921",
       "borderBottom": "1px solid rgba(22,25,29,0.22)",
       "borderTop": "1px solid transparent",
       "fontFamily": "\"Open Sans\", sans-serif",
@@ -1743,7 +1743,7 @@
       "contentBoxBoxShadow": "0 1px 2px 0 rgba(22,25,29,0.4)",
       "contentBoxHorizontalPadding": "24px",
       "heading": {
-        "background": "#4e5965",
+        "background": "#e2e6e9",
         "paddingTop": "0",
         "paddingBottom": "0",
         "paddingLeft": "24px",
@@ -1765,7 +1765,7 @@
         "padding": "0 24px 24px"
       },
       "title": {
-        "color": "#fff",
+        "color": "#0F1111",
         "fontSize": "1rem",
         "fontFamily": "\"Open Sans\", sans-serif",
         "fontWeight": 600,
@@ -2407,8 +2407,8 @@
         "margin": "2px 0 0 0"
       },
       "section": {
-        "background": "#596673",
-        "color": "#fff",
+        "background": "#f1f2f4",
+        "color": "#0F1111",
         "fontSize": "0.75rem",
         "fontWeight": 700
       },
@@ -2916,8 +2916,8 @@
         },
         "padding": "0 0 8px 0",
         "title": {
-          "background": "#596673",
-          "color": "#fff",
+          "background": "#e2e6e9",
+          "color": "#0F1111",
           "disabledColor": "#596673",
           "fontWeight": 700,
           "minHeight": "auto",
@@ -3695,10 +3695,10 @@
         "borderBottom": "1px solid rgba(22,25,29,0.22)",
         "borderTop": "1px solid rgba(255,255,255,0.12)",
         "mainLayer": {
-          "background": "#596673"
+          "background": "#131921"
         },
         "subLayer": {
-          "background": "#4e5965"
+          "background": "#131921"
         },
         "item": {
           "color": "#fff",
@@ -3777,7 +3777,7 @@
         "height": "calc(100% - 48px)"
       },
       "subLayer": {
-        "background": "#4e5965",
+        "background": "#131921",
         "boxShadow": "0 1px 4px 0 rgba(22,25,29,0.4)",
         "minWidth": "210px",
         "verticalBG": "#fff"
@@ -3786,10 +3786,10 @@
         "borderBottom": "1px solid rgba(22,25,29,0.22)",
         "borderTop": "1px solid rgba(255,255,255,0.12)",
         "mainLayer": {
-          "background": "#596673"
+          "background": "#131921"
         },
         "subLayer": {
-          "background": "#4e5965"
+          "background": "#131921"
         },
         "item": {
           "color": "#fff",
@@ -4473,7 +4473,7 @@
       "contentBorder": "8px solid #232F3E",
       "header": {
         "addonGap": "0 8px",
-        "background": "#232F3E",
+        "background": "#37475A",
         "minHeight": "48px",
         "padding": "0 8px",
         "buttonColor": "#fff",
@@ -4782,14 +4782,14 @@
         "boxShadow": "0 1px 2px 0 rgba(22,25,29,0.4)"
       },
       "header": {
-        "background": "#4e5965",
+        "background": "#e2e6e9",
         "borderRadius": 0,
         "minHeight": "48px",
         "padding": "0 16px",
         "iconFontSize": "1.125rem"
       },
       "text": {
-        "color": "#fff",
+        "color": "#0F1111",
         "fontSize": "0.875rem",
         "fontWeight": 700
       },
