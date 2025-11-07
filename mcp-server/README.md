@@ -245,41 +245,8 @@ Make sure you look at all the aspects:
 Besides the look & feel of the CLIENT design you also have to keep the design usable: text must be legible, contrasts must be high enough.
 
 Make as many rounds as you think are helpful. Stop latest after 10 rounds. 
+Look at the field THEMES_EXPLAINED.md in the themes folder to understand the theme structure.
 
-Here's an extract from the webpage that explains our theming system: 
-Theming
-The theme specifies color of the components, darkness of the surfaces, level of shadow, appropriate opacity of ink elements, etc.
-
-Themes let you apply a consistent tone to your app. It allows you to customize all design aspects of your project in order to meet the specific needs of your business or brand.
-
-You can check the difference between the themes by toggling the "Theme Selector" button positioned on the top-right of our Showcase.
-
-Theme variables
-The base Widgets theme includes the following themable aspects:
-
-.colors
-This property defines the color palette of the Theme object.
-
-.typography
-This property defines the variables related to the Font of the Theme object, including Font Family, Font Size and Font Weight.
-
-.spacing
-This property defines the variables related to the Spacing of the Theme object.
-
-.applicationStyles
-This property defines the variables related to the overall styles of the Theme object, including shared input styles, label styles, and responsive breakpoints.
-
-.focusStyles
-This property defines the variables related to the focus styles of the Theme object.
-
-.divisionLineStyles
-This property defines the variables related to the styles of the dividers of the Theme object, including bottomLine, initialLine, topLine and lineHeight.
-
-.baseInputStyles
-This property defines the variables related to the Box-Shadow and Line Height styles of the input components inside the Theme object.
-
-.components
-This property defines the styling variables related to each of the Widget's component. Each of our Component showcase includes a Theme Configuration section for you to take a deeper look on each component's styling configuration values.
 ```
 
 Before launching a Theming run, it makes sense to `Shift + Tab` so the auto-accept mode is switched on. Also I have better experience with switching model like so:
