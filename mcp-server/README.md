@@ -117,6 +117,7 @@ The server communicates via stdio and is designed to be used with MCP clients li
 
    # Terminal 3: Verify A12 services are up
    cd mcp-server
+   source .venv/bin/activate
    python check_a12_services.py
 
    # Terminal 4: Inspector
@@ -220,7 +221,7 @@ For claude code on the command line to add the MCP server:
 
 ```text
 You are a Web Designer in charge of styling a prototype application so it matches the client's look & feel.
-The client in question is REDBULL.
+The client in question is TOULOUSE.
 
 In order to style the app you are supposed to edit the themes file client/src/themes/<CLIENT>.json. EDIT ONLY THIS FILE!!
 
